@@ -4,6 +4,12 @@
 /deck-cleaning/*  /deck-cleaning/  301
 /driveway-cleaning/*  /driveway-cleaning/  301
 /fence-cleaning/*  /fence-cleaning/  301
-/power-washing/*  /power-washing/  301
+
 /pressure-washing/*  /pressure-washing/  301
-/roof-soft-wash/*  /roof-soft-wash/  301
+
+# Sep 11 2026 - keyword data: "pressure washing Houston" 1,300/mo vs "power washing Houston" 140/mo
+/power-washing/*  /pressure-washing/  301
+/power-washing/  /pressure-washing/  301
+# "roof cleaning Houston" 210/mo; "roof soft wash Houston" no measurable volume
+/roof-soft-wash/*  /roof-cleaning/  301
+/roof-soft-wash/  /roof-cleaning/  301
