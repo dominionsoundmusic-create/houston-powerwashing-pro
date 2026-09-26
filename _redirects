@@ -13,3 +13,27 @@
 # "roof cleaning Houston" 210/mo; "roof soft wash Houston" no measurable volume
 /roof-soft-wash/*  /roof-cleaning/  301
 /roof-soft-wash/  /roof-cleaning/  301
+
+# Sep 25 2026 - automatic blog posts retired (templated). Each old post points to the closest real page.
+/blog/how-clean-exterior-surfaces-prevent-costly-repairs-1785851346417.html  /house-washing  301
+/blog/how-clean-exterior-surfaces-prevent-costly-repairs-1785851346417  /house-washing  301
+/blog/roof-soft-washing-and-why-bleach-damages-shingles-1786452219526.html  /roof-cleaning/  301
+/blog/roof-soft-washing-and-why-bleach-damages-shingles-1786452219526  /roof-cleaning/  301
+/blog/removing-oil-stains-from-concrete-driveways-1786192092061.html  /oil-stain-removal  301
+/blog/removing-oil-stains-from-concrete-driveways-1786192092061  /oil-stain-removal  301
+/blog/how-often-should-you-pressure-wash-your-house-1786106549742.html  /house-washing  301
+/blog/how-often-should-you-pressure-wash-your-house-1786106549742  /house-washing  301
+/blog/best-time-of-year-to-pressure-wash-in-houston-1786023811161.html  /pressure-washing/  301
+/blog/best-time-of-year-to-pressure-wash-in-houston-1786023811161  /pressure-washing/  301
+/blog/removing-oil-stains-from-concrete-driveways-1786365977335.html  /oil-stain-removal  301
+/blog/removing-oil-stains-from-concrete-driveways-1786365977335  /oil-stain-removal  301
+/blog/signs-your-driveway-needs-professional-cleaning-1785937484523.html  /driveway-cleaning/  301
+/blog/signs-your-driveway-needs-professional-cleaning-1785937484523  /driveway-cleaning/  301
+/blog/pressure-washing-vs-soft-washing-what-is-the-difference-1786970351926.html  /roof-cleaning/  301
+/blog/pressure-washing-vs-soft-washing-what-is-the-difference-1786970351926  /roof-cleaning/  301
+/blog/how-often-should-you-pressure-wash-your-house-1786278617158.html  /house-washing  301
+/blog/how-often-should-you-pressure-wash-your-house-1786278617158  /house-washing  301
+/blog/why-diy-pressure-washing-damages-siding-1785707405482.html  /house-washing  301
+/blog/why-diy-pressure-washing-damages-siding-1785707405482  /house-washing  301
+/blog/*  /  301
+/blog  /  301
