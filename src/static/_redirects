@@ -69,9 +69,9 @@
 /terms                                     /terms-of-use/                          301
 /terms.html                                /terms-of-use/                          301
 /privacy-policy.html                       /privacy-policy/                        301
-/contact/thanks                            /thank-you/                             301
-/contact/thanks/                           /thank-you/                             301
-/contact/thanks/index.html                 /thank-you/                             301
+/contact/thanks                            /contact/                               301
+/contact/thanks/                           /contact/                               301
+/contact/thanks/index.html                 /contact/                               301
 
 # Retired keyword folders (Sep 2026). The homepage now targets "power washing Houston".
 /power-washing                             /                                       301
@@ -104,3 +104,6 @@
 /blog/why-diy-pressure-washing-damages-siding-1785707405482                        /services/house-washing/               301
 /blog/*                                    /                                       301
 /blog                                      /                                       301
+
+/thank-you                                 /contact/                               301
+/thank-you/                                /contact/                               301

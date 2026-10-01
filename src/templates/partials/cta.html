@@ -1,6 +1,6 @@
 {% set b = site.business %}
 <section class="band band--navy cta" aria-labelledby="cta-title">
-  <div class="wide cta__grid">
+  <div class="wide cta__grid cta__grid--single">
     <div class="cta__text">
       <h2 id="cta-title">{{ page.cta_title | default('Talk to a local pressure washing company today') }}</h2>
       <p>{{ page.cta_text | default('Call the free line any hour. Say what needs cleaning and roughly how big it is, and you are put through to an independent, owner-run local company that looks at the job and gives you its own price.') }}</p>
@@ -10,9 +10,6 @@
         <li>Free to call. You never pay the line.</li>
         <li>The company you talk to quotes, does the work and is paid by you directly.</li>
       </ul>
-    </div>
-    <div class="cta__form">
-      {% include "partials/form.html" %}
     </div>
   </div>
 </section>

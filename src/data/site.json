@@ -31,8 +31,8 @@
   "cta": {
     "primary_label": "Call (832) 662-4107",
     "primary_short": "Call now",
-    "secondary_label": "Send a Cleaning Request",
-    "secondary_href": "/contact/#request"
+    "secondary_label": "How It Works",
+    "secondary_href": "/how-it-works/"
   },
   "form": {
     "name": "houston-powerwashing-contact",
