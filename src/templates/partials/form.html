@@ -1,0 +1,42 @@
+{% set f = site.form %}
+{% set fid = page.form_id | default('req') %}
+<form class="form" id="request" name="{{ f.name }}" method="POST" action="{{ f.action }}" data-netlify="true" netlify-honeypot="{{ f.honeypot }}">
+  <h3 class="form__title">Send a Cleaning Request</h3>
+  <p class="form__intro">A local company will call you back. If you would rather talk now, call {{ site.business.phone_display }}.</p>
+  <input type="hidden" name="form-name" value="{{ f.name }}">
+  <input type="hidden" name="page" value="{{ page.url }}">
+  <p class="hp" aria-hidden="true"><label>Leave this empty <input name="{{ f.honeypot }}" tabindex="-1" autocomplete="off"></label></p>
+  <div class="form__row">
+    <label for="{{ fid }}-name">Your name</label>
+    <input id="{{ fid }}-name" name="name" required autocomplete="name">
+  </div>
+  <div class="form__row form__row--half">
+    <div>
+      <label for="{{ fid }}-phone">Phone</label>
+      <input id="{{ fid }}-phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel">
+    </div>
+    <div>
+      <label for="{{ fid }}-email">Email <span class="opt">(optional)</span></label>
+      <input id="{{ fid }}-email" name="email" type="email" autocomplete="email">
+    </div>
+  </div>
+  <div class="form__row">
+    <label for="{{ fid }}-city">City or ZIP code</label>
+    <input id="{{ fid }}-city" name="city" required autocomplete="postal-code"{% if page.form_city is defined %} value="{{ page.form_city }}"{% endif %}>
+  </div>
+  <div class="form__row">
+    <label for="{{ fid }}-need">What needs cleaning?</label>
+    <select id="{{ fid }}-need" name="need" required>
+      <option value="">Choose one</option>
+      {% for n in f.needs %}
+      <option{% if page.form_need is defined and page.form_need == n %} selected{% endif %}>{{ n }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="form__row">
+    <label for="{{ fid }}-message">Size, or anything else to know</label>
+    <textarea id="{{ fid }}-message" name="message" rows="3" placeholder="For example: two-story brick house, about 2,500 sq ft, green on the north side"></textarea>
+  </div>
+  <button class="btn btn--navy btn--block" type="submit">Send request</button>
+  <p class="form__legal">Your details go only to the company that will call you back. They are not sold. By sending, you agree to the <a href="/privacy-policy/">Privacy Policy</a> and <a href="/terms-of-use/">Terms of Use</a>.</p>
+</form>
