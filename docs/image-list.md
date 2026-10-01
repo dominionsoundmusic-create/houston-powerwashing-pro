@@ -12,7 +12,7 @@ Suggested order: the 1920x1080 heroes first (they show on screen straight away),
 with roof-soft-wash-houston-hero.jpg and roof-cleaning-cost-houston-hero.jpg if listed, because
 their stand-in photo is a frosty tile roof that does not look like Houston.
 
-Total: 85 images.
+Total: 84 images.
 
 ## 1. home-hero-houston-house-and-driveway.jpg
 
@@ -670,15 +670,7 @@ Prompt: A bright, sunny backyard behind a two-story brick home in suburban Houst
 
 Prompt: A bright, sharp close-up of a gray architectural asphalt shingle roof on a Houston-area home, shot from a ladder-height angle on a clear day. Dark black vertical algae streaks run down from the ridge across several courses of shingles, with the shingle granules clearly visible. A gutter edge and a few pine needles appear at the bottom of the frame, blue sky at the top. Realistic photo, no people, no text, no logos.
 
-## 83. roof-soft-wash-houston-hero.jpg
-
-- Size: 1920x1080 px
-- Page(s): /services/roof-cleaning/
-- Alt text: Asphalt shingle roof on a Houston-area home with dark algae streaks on one side and clean shingles on the other
-
-Prompt: A bright, wide photo looking up at the gray architectural asphalt shingle roof of a two-story brick home in a wooded Houston suburb. The left half of the roof slope has long black algae streaks running down from the ridge; the right half has been soft washed and looks evenly clean gray. Tall loblolly pines and a live oak frame the house, clear blue sky, warm morning sunlight, green summer leaves. Realistic photo, no people, no text, no logos.
-
-## 84. tile-roof-soft-wash-houston-home.jpg
+## 83. tile-roof-soft-wash-houston-home.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/roof-cleaning/
@@ -686,7 +678,7 @@ Prompt: A bright, wide photo looking up at the gray architectural asphalt shingl
 
 Prompt: A bright, sunny photo of a single-story cream stucco home in a newer Houston-area suburb with a clean terracotta concrete tile roof. The tiles look evenly colored with no dark growth. A palm tree and a young live oak stand in the front yard, green lawn, clear blue sky, crisp midday light. Realistic photo, no people, no text, no logos.
 
-## 85. terms-of-use-houston-front-porch.jpg
+## 84. terms-of-use-houston-front-porch.jpg
 
 - Size: 1920x1080 px
 - Page(s): /terms-of-use/
