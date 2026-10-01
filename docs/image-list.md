@@ -12,7 +12,7 @@ Suggested order: the 1920x1080 heroes first (they show on screen straight away),
 with roof-soft-wash-houston-hero.jpg and roof-cleaning-cost-houston-hero.jpg if listed, because
 their stand-in photo is a frosty tile roof that does not look like Houston.
 
-Total: 79 images.
+Total: 78 images.
 
 ## 1. home-hero-houston-house-and-driveway.jpg
 
@@ -182,15 +182,7 @@ Prompt: A bright, close daytime photo of a clipboard resting on a white porch ra
 
 Prompt: A bright daytime photo of a two-story Mediterranean-style stucco home in a Houston suburb with a terracotta-colored concrete tile roof. The left half of the roof is darkened with black and green growth, the right half is clean and evenly colored, with a crisp line between them. Palm and live oak trees, green lawn, clear blue sky and warm sunlight. Realistic photo, no people, no text, no logos.
 
-## 22. roof-cleaning-crew-safety-harness-houston.jpg
-
-- Size: 1200x800 px
-- Page(s): /guides/roof-cleaning-cost/
-- Alt text: Roof cleaner in a safety harness applying a gentle low-pressure spray to a shingle roof in a Houston neighborhood
-
-Prompt: A bright daytime photo of a two-story home with gray asphalt shingles in a wooded Houston-area neighborhood. A worker wearing a safety harness clipped to a ridge anchor, seen from a distance and from behind with no visible face, applies a soft, wide, low-pressure spray to the upper roof. Black streaks remain on the lower section while the upper section is clean. Tall pines, blue sky, natural sunlight. Realistic photo, no text, no logos.
-
-## 23. how-it-works-homeowner-phone-call-porch.jpg
+## 22. how-it-works-homeowner-phone-call-porch.jpg
 
 - Size: 1920x1080 px
 - Page(s): /how-it-works/
@@ -198,7 +190,7 @@ Prompt: A bright daytime photo of a two-story home with gray asphalt shingles in
 
 Prompt: Bright daytime photo taken from behind and slightly to the side of a homeowner standing on the front porch of a brick Houston-area home, holding a phone to their ear and looking out at a concrete driveway with dark mildew patches near the lawn. Face not visible. Potted plants, white porch columns, green lawn, blue sky. Realistic photo, no text, no logos, no visible phone screen.
 
-## 24. how-it-works-photo-of-mildew-siding.jpg
+## 23. how-it-works-photo-of-mildew-siding.jpg
 
 - Size: 1200x800 px
 - Page(s): /how-it-works/
@@ -206,7 +198,7 @@ Prompt: Bright daytime photo taken from behind and slightly to the side of a hom
 
 Prompt: Bright, clear close-up daytime photo of the lower section of light beige lap siding on a Houston-area house, showing a band of green mildew and algae just above a row of shrubs and a mulched bed. Sunlight on the upper siding, shade near the bottom. Realistic photo, no people, no text, no logos.
 
-## 25. privacy-policy-houston-home-office.jpg
+## 24. privacy-policy-houston-home-office.jpg
 
 - Size: 1920x1080 px
 - Page(s): /privacy-policy/
@@ -214,7 +206,7 @@ Prompt: Bright, clear close-up daytime photo of the lower section of light beige
 
 Prompt: Bright, calm daytime photo of a tidy home office desk beside a large window that looks out on a green Houston-area backyard with a wooden fence and live oak. A closed laptop and a notepad on the desk, soft natural light. Realistic photo, no people, no readable text on screens or paper, no logos.
 
-## 26. service-areas-houston-suburbs-aerial.jpg
+## 25. service-areas-houston-suburbs-aerial.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/
@@ -222,7 +214,7 @@ Prompt: Bright, calm daytime photo of a tidy home office desk beside a large win
 
 Prompt: Bright, high-angle daytime photo over a tree-lined suburban neighborhood near Houston, Texas: rows of brick and siding homes with gray shingle roofs, light concrete driveways and cul-de-sacs, green lawns, tall pines and live oaks, a retention pond in the distance, flat land to the horizon under a blue sky with scattered white clouds. Realistic photo, no text, no logos, no identifiable landmarks or signs.
 
-## 27. service-areas-suburban-street-clean-driveways.jpg
+## 26. service-areas-suburban-street-clean-driveways.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/
@@ -230,7 +222,7 @@ Prompt: Bright, high-angle daytime photo over a tree-lined suburban neighborhood
 
 Prompt: Bright, eye-level daytime photo looking down a quiet suburban street near Houston, Texas, with a row of two-story brick homes, light clean concrete driveways and sidewalks, young live oak trees along the curb and green lawns. Blue sky, soft sun. Realistic photo, no people, no cars with readable plates, no text, no logos, no street signs.
 
-## 28. conroe-lake-home-pine-trees-hero.jpg
+## 27. conroe-lake-home-pine-trees-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/conroe/
@@ -238,7 +230,7 @@ Prompt: Bright, eye-level daytime photo looking down a quiet suburban street nea
 
 Prompt: A bright, sunny morning on Lake Conroe, Texas. A two-story lake house with light siding and a stone base sits under tall loblolly pines, with a freshly cleaned concrete walkway leading down a green lawn to a wooden deck at the water's edge. Calm blue lake water and a far shoreline lined with pine trees in the background, clear sky, crisp natural daylight. Realistic photo, no people, no signage, no text, no logos.
 
-## 29. conroe-new-subdivision-driveway-clean.jpg
+## 28. conroe-new-subdivision-driveway-clean.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/conroe/
@@ -246,7 +238,7 @@ Prompt: A bright, sunny morning on Lake Conroe, Texas. A two-story lake house wi
 
 Prompt: A wide, freshly cleaned light gray concrete driveway in front of a new two-story home with brick and fiber cement siding in a master-planned subdivision in Conroe, Texas. Young trees, neat green lawn, pine trees at the back of the lot, bright morning sun and blue sky. Realistic photo, no people, no text, no logos.
 
-## 30. conroe-pine-shaded-roof-soft-wash.jpg
+## 29. conroe-pine-shaded-roof-soft-wash.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/conroe/
@@ -254,7 +246,7 @@ Prompt: A wide, freshly cleaned light gray concrete driveway in front of a new t
 
 Prompt: A bright, clear day in a wooded Conroe, Texas neighborhood. A single-story red brick ranch home with a dark asphalt shingle roof sits beneath tall loblolly pines. The near roof slope is evenly clean and dark gray, while the far slope still shows black algae streaks and scattered pine needles in the valley. Green lawn, pine straw in the beds, blue sky through the trees. Realistic photo, no people, no text, no logos.
 
-## 31. cypress-tx-lakeside-master-planned-homes.jpg
+## 30. cypress-tx-lakeside-master-planned-homes.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/cypress/
@@ -262,7 +254,7 @@ Prompt: A bright, clear day in a wooded Conroe, Texas neighborhood. A single-sto
 
 Prompt: A bright, sunny morning in a master-planned neighborhood in Cypress, Texas, northwest of Houston. A row of two-story homes with brick and light stone fronts, pitched shingle roofs and wide concrete driveways faces a calm community lake with a walking path and young oak trees. The concrete and siding look freshly cleaned. Clear blue sky, green St. Augustine lawns, natural daylight, realistic photo, no people, no signage, no text, no logos.
 
-## 32. cypress-tx-lakeside-patio-cleaning.jpg
+## 31. cypress-tx-lakeside-patio-cleaning.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/cypress/
@@ -270,7 +262,7 @@ Prompt: A bright, sunny morning in a master-planned neighborhood in Cypress, Tex
 
 Prompt: A bright afternoon view from the back yard of a two-story brick home in a Cypress, Texas, lake community. A light gray concrete patio and curving walkway have just been cleaned and are evenly colored, leading to a mowed lawn and a calm lake with a walking trail on the far bank. A few patio chairs, young live oaks, clear blue sky. Realistic photo, no people, no text, no logos, no signage.
 
-## 33. friendswood-cedar-fence-soft-wash.jpg
+## 32. friendswood-cedar-fence-soft-wash.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/friendswood/
@@ -278,7 +270,7 @@ Prompt: A bright afternoon view from the back yard of a two-story brick home in 
 
 Prompt: A bright, sunny backyard on a wooded lot in Friendswood, Texas. A long cedar privacy fence runs along the back of the yard and has just been cleaned to an even warm brown color, with smooth boards and no gray or black spotting. Tall pines and oaks stand behind the fence, green lawn and a flower bed in front, blue sky above. Realistic photo, no people, no text, no logos.
 
-## 34. friendswood-pressure-washing-hero.jpg
+## 33. friendswood-pressure-washing-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/friendswood/
@@ -286,7 +278,7 @@ Prompt: A bright, sunny backyard on a wooded lot in Friendswood, Texas. A long c
 
 Prompt: A bright, clear morning photo of a single-story red brick ranch-style home on a large, wooded lot in Friendswood, Texas, southeast of Houston. Tall pines and broad live oaks shade part of the roof, a long light-gray concrete driveway curves to a side-entry garage, and a cedar privacy fence runs along one side of the yard. Dappled sunlight on green St. Augustine grass, blue sky visible through the trees. Realistic photo, no people, no text, no logos, no house numbers.
 
-## 35. friendswood-shaded-driveway-leaf-stains.jpg
+## 34. friendswood-shaded-driveway-leaf-stains.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/friendswood/
@@ -294,7 +286,7 @@ Prompt: A bright, clear morning photo of a single-story red brick ranch-style ho
 
 Prompt: A bright, sunny day in a wooded Friendswood, Texas neighborhood. A long concrete driveway runs under the spreading branches of mature live oaks toward a single-story brick home. Dappled light falls across the driveway, which shows brown leaf-shaped stains and a faint green film in the shadiest stretch. Green lawn and shrubs on both sides, blue sky through the leaves. Realistic photo, no people, no text, no logos, no house numbers.
 
-## 36. katy-cedar-fence-half-cleaned.jpg
+## 35. katy-cedar-fence-half-cleaned.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/katy/
@@ -302,7 +294,7 @@ Prompt: A bright, sunny day in a wooded Friendswood, Texas neighborhood. A long 
 
 Prompt: A bright, sunny photo of a long cedar privacy fence running along a backyard in a flat suburban neighborhood west of Houston. The left part of the fence is weathered gray with green mildew near the bottom boards; the right part has just been cleaned and shows warm tan wood. Green St. Augustine lawn in front, a two-story brick home roofline visible beyond the fence, wide blue sky. Realistic photo, no people, no text, no logos.
 
-## 37. katy-two-story-brick-home-clean-driveway-hero.jpg
+## 36. katy-two-story-brick-home-clean-driveway-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/katy/
@@ -310,7 +302,7 @@ Prompt: A bright, sunny photo of a long cedar privacy fence running along a back
 
 Prompt: A wide, bright midday photo of a curving street in a master-planned neighborhood west of Houston on flat former prairie: two-story homes with red and tan brick fronts and light siding above, wide two-car concrete driveways that have just been cleaned to an even light gray, young live oaks in the yards, a cedar privacy fence running between houses, big open blue sky with a few white clouds. Realistic photo, no people, no street signs, no text, no logos.
 
-## 38. kingwood-greenbelt-fence-clean.jpg
+## 37. kingwood-greenbelt-fence-clean.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/kingwood/
@@ -318,7 +310,7 @@ Prompt: A wide, bright midday photo of a curving street in a master-planned neig
 
 Prompt: A bright sunny day in Kingwood, Texas. A long cedar privacy fence behind a row of suburban homes has just been cleaned and shows warm, even wood color. On the other side of the fence, a paved greenbelt trail winds through tall pines and leafy hardwoods with dappled sunlight on the path. Green grass edges, blue sky through the trees. Realistic photo, no people, no text, no logos.
 
-## 39. kingwood-wooded-street-brick-home-hero.jpg
+## 38. kingwood-wooded-street-brick-home-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/kingwood/
@@ -326,7 +318,7 @@ Prompt: A bright sunny day in Kingwood, Texas. A long cedar privacy fence behind
 
 Prompt: A bright, clear morning on a quiet residential street in Kingwood, Texas. A two-story red brick home with light trim and a dark shingle roof sits beneath a dense canopy of tall pines and hardwoods, with sunlight filtering through the branches onto a freshly cleaned, evenly light gray concrete driveway and a green lawn edged with pine straw beds. Lush, wooded feel, blue sky visible through the treetops. Realistic photo, no people, no signage, no text, no logos.
 
-## 40. league-city-brick-home-soft-wash.jpg
+## 39. league-city-brick-home-soft-wash.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/league-city/
@@ -334,7 +326,7 @@ Prompt: A bright, clear morning on a quiet residential street in Kingwood, Texas
 
 Prompt: A bright, sunny photo of a two-story suburban home in League City, Texas, with red-brown brick on the lower level and pale blue siding above. The siding and brick look freshly cleaned and even in color, the white trim is bright, and a clean light-gray concrete front walk leads to the door between trimmed shrubs. Green lawn, a young live oak in the yard, blue sky. Realistic photo, no people, no text, no logos, no house numbers.
 
-## 41. league-city-pressure-washing-hero.jpg
+## 40. league-city-pressure-washing-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/league-city/
@@ -342,7 +334,7 @@ Prompt: A bright, sunny photo of a two-story suburban home in League City, Texas
 
 Prompt: A bright, sunny late-morning view down a residential street in League City, Texas, south of Houston near Clear Lake. Two-story suburban homes with tan brick lower walls and light painted siding above, wide clean concrete driveways, green St. Augustine lawns and a few mature live oaks along the curb. A hint of open sky and palm trees toward the water in the far background. Natural daylight, clear blue sky with a few white clouds, crisp and clearly visible surfaces. Realistic photo, no people, no cars in motion, no signage, no text, no logos, no house numbers.
 
-## 42. league-city-wood-fence-after-flood-cleaning.jpg
+## 41. league-city-wood-fence-after-flood-cleaning.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/league-city/
@@ -350,7 +342,7 @@ Prompt: A bright, sunny late-morning view down a residential street in League Ci
 
 Prompt: A bright, sunny backyard in League City, Texas. A long wooden privacy fence runs across the frame: the left half is weathered gray with a faint brown water line about knee height and patches of green mildew near the ground, while the right half has been cleaned to a warm, even cedar color. Green lawn in front, a corner of a brick home and a blue sky with soft clouds. Realistic photo, no people, no text, no logos.
 
-## 43. missouri-city-brick-home-mildew-wall.jpg
+## 42. missouri-city-brick-home-mildew-wall.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/missouri-city/
@@ -358,7 +350,7 @@ Prompt: A bright, sunny backyard in League City, Texas. A long wooden privacy fe
 
 Prompt: A bright, sunny day showing the shaded side wall of a single-story 1970s red brick ranch home in Missouri City, Texas, beside a mature tree. The lower part of the brick and the white trim show green mildew on the left half, while the right half has been soft washed clean and bright. A concrete walk runs along the wall with green grass beside it, blue sky above the roofline. Realistic photo, no people, no text, no logos.
 
-## 44. missouri-city-pressure-washing-hero.jpg
+## 43. missouri-city-pressure-washing-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/missouri-city/
@@ -366,7 +358,7 @@ Prompt: A bright, sunny day showing the shaded side wall of a single-story 1970s
 
 Prompt: A bright, sunny afternoon photo of a row of two-story brick homes in Missouri City, Texas, southwest of Houston, set along a wide green golf course fairway lined with mature trees. Wide clean concrete driveways, trimmed hedges and green lawns in front, white trim and dark shingle roofs, clear blue sky with a few soft clouds. Realistic photo, no people, no golf carts, no signage, no text, no logos, no house numbers.
 
-## 45. missouri-city-sienna-home-driveway.jpg
+## 44. missouri-city-sienna-home-driveway.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/missouri-city/
@@ -374,7 +366,7 @@ Prompt: A bright, sunny afternoon photo of a row of two-story brick homes in Mis
 
 Prompt: A bright, sunny photo of a newer two-story home in a master-planned community in Missouri City, Texas. Light tan brick and stone front, a wide freshly cleaned light-gray concrete driveway, a cedar privacy fence along the side yard, young trees and neat landscaping beds with green St. Augustine lawn. Clear blue sky. Realistic photo, no people, no text, no logos, no house numbers.
 
-## 46. pearland-tx-brick-stucco-homes-concrete-drive.jpg
+## 45. pearland-tx-brick-stucco-homes-concrete-drive.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/pearland/
@@ -382,7 +374,7 @@ Prompt: A bright, sunny photo of a newer two-story home in a master-planned comm
 
 Prompt: A bright, clear midday street scene in a suburban Pearland, Texas, neighborhood south of Houston. Single and two-story homes with red and tan brick fronts and cream stucco accents sit behind green St. Augustine lawns. Their concrete driveways and front walks are evenly light gray and freshly cleaned. Young live oaks and crepe myrtles line the curb, flat Gulf Coast terrain, blue sky with a few white clouds. Realistic photo, no people, no cars in motion, no signage, no text, no logos.
 
-## 47. pearland-tx-stucco-wall-mildew-soft-wash.jpg
+## 46. pearland-tx-stucco-wall-mildew-soft-wash.jpg
 
 - Size: 900x1100 px
 - Page(s): /service-areas/pearland/
@@ -390,7 +382,7 @@ Prompt: A bright, clear midday street scene in a suburban Pearland, Texas, neigh
 
 Prompt: A close, eye-level view of the side of a single-story home in Pearland, Texas, with cream-colored stucco and a red brick wainscot. The lower part of the stucco shows patchy green mildew near a flower bed, and the upper part has already been cleaned to a bright, even cream. A soft white foam of cleaning solution is visible on part of the wall. Bright daylight, green shrubs, blue sky at the edge. Realistic photo, no people, no text, no logos.
 
-## 48. spring-tx-pine-needles-roof-valley.jpg
+## 47. spring-tx-pine-needles-roof-valley.jpg
 
 - Size: 900x1100 px
 - Page(s): /service-areas/spring/
@@ -398,7 +390,7 @@ Prompt: A close, eye-level view of the side of a single-story home in Pearland, 
 
 Prompt: A clear, bright view of the roof of a two-story home in Spring, Texas, seen from the yard. Brown pine needles have collected in a roof valley and along the gutter, and faint black algae streaks run down the dark gray shingles below them. Tall loblolly pine trunks and green branches frame the scene, blue sky above. Realistic photo, natural daylight, no people, no text, no logos.
 
-## 49. spring-tx-pine-shaded-home-roof.jpg
+## 48. spring-tx-pine-shaded-home-roof.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/spring/
@@ -406,7 +398,7 @@ Prompt: A clear, bright view of the roof of a two-story home in Spring, Texas, s
 
 Prompt: A bright, sunny morning on a wooded residential street in Spring, Texas, north of Houston. A two-story red brick home with tan siding on the gables and a dark shingle roof sits on a lot shaded by tall, straight loblolly pines and a few oaks, with pine straw in the flower beds. Sunlight breaks through the canopy onto a clean concrete driveway and a green lawn. Realistic photo, natural daylight, no people, no signage, no text, no logos.
 
-## 50. spring-tx-pollen-covered-deck.jpg
+## 49. spring-tx-pollen-covered-deck.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/spring/
@@ -414,7 +406,7 @@ Prompt: A bright, sunny morning on a wooded residential street in Spring, Texas,
 
 Prompt: A bright spring morning on a back deck behind a home in Spring, Texas. The stained wood deck boards, railing and two patio chairs are dusted with a fine layer of yellow pine pollen, with a few fallen pine needles. Tall pines and fresh green oak leaves in the background, sunlight filtering through, blue sky. Realistic photo, no people, no text, no logos.
 
-## 51. sugar-land-driveway-walkway-cleaned.jpg
+## 50. sugar-land-driveway-walkway-cleaned.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/sugar-land/
@@ -422,7 +414,7 @@ Prompt: A bright spring morning on a back deck behind a home in Spring, Texas. T
 
 Prompt: A bright, sunny straight-on photo of a two-car concrete driveway and curved front walkway leading to a red-brick two-story home with white trim in an established suburb southwest of Houston. The concrete has just been cleaned and is evenly light gray, the lawn is trimmed St. Augustine grass, a mature live oak shades one corner of the yard, and flower beds line the walk. Clear blue sky. Realistic photo, no people, no text, no logos.
 
-## 52. sugar-land-fence-mildew-lake-lot.jpg
+## 51. sugar-land-fence-mildew-lake-lot.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/sugar-land/
@@ -430,7 +422,7 @@ Prompt: A bright, sunny straight-on photo of a two-car concrete driveway and cur
 
 Prompt: A bright daytime photo of a stained wood privacy fence along the back of a suburban lot that borders a calm neighborhood lake southwest of Houston. The lower boards show dark green and black mildew spots where sprinklers and shade keep them damp; the upper boards are cleaner. Green lawn, a crepe myrtle, and the edge of the lake with reeds in the background. Realistic photo, no people, no text, no logos.
 
-## 53. sugar-land-lakeside-brick-home-hero.jpg
+## 52. sugar-land-lakeside-brick-home-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/sugar-land/
@@ -438,7 +430,7 @@ Prompt: A bright daytime photo of a stained wood privacy fence along the back of
 
 Prompt: A wide, bright late-morning photo of a two-story red-brick home with white trim in an established master-planned neighborhood southwest of Houston. The house backs onto a calm neighborhood lake visible to one side, with mature live oaks and crepe myrtles, a clean light gray concrete driveway, trimmed St. Augustine lawn and a stained wood fence. Soft blue sky, gentle reflections on the water. Realistic photo, no people, no street signs, no text, no logos.
 
-## 54. the-woodlands-home-under-pines-hero.jpg
+## 53. the-woodlands-home-under-pines-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/the-woodlands/
@@ -446,7 +438,7 @@ Prompt: A wide, bright late-morning photo of a two-story red-brick home with whi
 
 Prompt: A wide, bright daytime photo of a two-story brick and light gray fiber-cement home set back among tall loblolly pines and a few oaks, typical of a wooded master-planned community north of Houston. A freshly cleaned concrete driveway curves to the garage, pine straw fills the beds, St. Augustine grass in front, dappled sunlight through the trees, clear blue sky above the canopy. Realistic photo, no people, no street signs, no text, no logos.
 
-## 55. the-woodlands-pine-needles-roof-gutter.jpg
+## 54. the-woodlands-pine-needles-roof-gutter.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/the-woodlands/
@@ -454,7 +446,7 @@ Prompt: A wide, bright daytime photo of a two-story brick and light gray fiber-c
 
 Prompt: A bright, clear daytime photo looking up at the roofline of a two-story suburban home among tall pine trees north of Houston. Brown pine needles have collected in a roof valley and along the gutter, and faint dark algae streaks run down part of the gray asphalt shingles. Blue sky and green pine branches overhead. Realistic photo, no people, no text, no logos.
 
-## 56. the-woodlands-shaded-siding-soft-wash.jpg
+## 55. the-woodlands-shaded-siding-soft-wash.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/the-woodlands/
@@ -462,7 +454,7 @@ Prompt: A bright, clear daytime photo looking up at the roofline of a two-story 
 
 Prompt: A bright daytime photo of the shaded north side of a two-story home with light tan fiber-cement siding and a brick base, set among tall pine trees in a wooded Houston-area suburb. The lower half of the wall still shows a faint green film; the upper half is clean. A worker seen from behind, at a distance, uses a long low-pressure wand. Pine straw beds and green shrubs in front. Realistic photo, no visible face, no text, no logos.
 
-## 57. tomball-brick-home-wood-fence-hero.jpg
+## 56. tomball-brick-home-wood-fence-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /service-areas/tomball/
@@ -470,7 +462,7 @@ Prompt: A bright daytime photo of the shaded north side of a two-story home with
 
 Prompt: A bright, sunny afternoon on a spacious lot in Tomball, Texas. A one-story brick and stone home with a dark shingle roof sits behind a long, clean concrete driveway, with a tall cedar privacy fence running along the side of the property and large oak and pine trees behind it. Green St. Augustine lawn, blue sky with a few white clouds, crisp natural light. Realistic photo, no people, no signage, no text, no logos.
 
-## 58. tomball-historic-downtown-brick-storefront.jpg
+## 57. tomball-historic-downtown-brick-storefront.jpg
 
 - Size: 1200x800 px
 - Page(s): /service-areas/tomball/
@@ -478,7 +470,7 @@ Prompt: A bright, sunny afternoon on a spacious lot in Tomball, Texas. A one-sto
 
 Prompt: A bright morning on a quiet main street in a small historic Texas railroad town northwest of Houston. A row of early 1900s red brick and painted wood storefronts with awnings sits behind a freshly cleaned concrete sidewalk that is evenly light gray. Clear blue sky, a few street trees, soft natural light. No readable signs or store names. Realistic photo, no people, no text, no logos.
 
-## 59. services-overview-houston-exterior-cleaning.jpg
+## 58. services-overview-houston-exterior-cleaning.jpg
 
 - Size: 1920x1080 px
 - Page(s): /services/
@@ -486,7 +478,7 @@ Prompt: A bright morning on a quiet main street in a small historic Texas railro
 
 Prompt: Bright, wide daytime photo of the side and front of a single-story brick and siding ranch home in a Houston suburb, showing several clean surfaces at once: a light concrete driveway, bright siding, a clean asphalt shingle roof without streaks, and a cedar privacy fence along the side yard. Green lawn, a crepe myrtle in bloom, blue sky. Calm open area on the left for text. Realistic photo, no people, no text, no logos.
 
-## 60. services-several-surfaces-one-visit.jpg
+## 59. services-several-surfaces-one-visit.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/
@@ -494,7 +486,7 @@ Prompt: Bright, wide daytime photo of the side and front of a single-story brick
 
 Prompt: Bright, clear photo of the front of a suburban Houston home after a full exterior cleaning: evenly light concrete driveway and front walk, bright white trim, clean light-colored siding and brick, clean gutters. Green lawn, flower beds with mulch, a young live oak. Sunny afternoon, blue sky. Realistic photo, no people, no text, no logos.
 
-## 61. commercial-dumpster-pad-wash-water-recovery-houston.jpg
+## 60. commercial-dumpster-pad-wash-water-recovery-houston.jpg
 
 - Size: 1200x900 px
 - Page(s): /services/commercial-pressure-washing/
@@ -502,7 +494,7 @@ Prompt: Bright, clear photo of the front of a suburban Houston home after a full
 
 Prompt: Behind a small restaurant in a Houston strip center on a bright, clear morning. A clean, light gray concrete dumpster pad inside a tan block enclosure with open metal gates. A black rubber containment berm is laid in a rectangle around the wet pad, and a thick recovery hose runs from a low corner toward a utility trailer parked at the edge of the frame. Green dumpster with a closed lid, blue sky, a crepe myrtle tree in the corner. Realistic photo, no people, no text, no logos, no brand names.
 
-## 62. commercial-pressure-washing-houston-office-entry.jpg
+## 61. commercial-pressure-washing-houston-office-entry.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/commercial-pressure-washing/
@@ -510,7 +502,7 @@ Prompt: Behind a small restaurant in a Houston strip center on a bright, clear m
 
 Prompt: A bright, sunny weekday morning in front of a modern two-story office building in suburban Houston. The building has tan stucco and dark-framed glass doors. The concrete entry plaza, wheelchair ramp and front sidewalk are freshly cleaned and evenly light gray, with a few planters of green shrubs and a young live oak. Clear blue sky, empty parking stalls at the edge of the frame. Realistic photo, no people, no text, no logos, no signage.
 
-## 63. deck-patio-cleaning-houston-hero.jpg
+## 62. deck-patio-cleaning-houston-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /services/deck-cleaning/
@@ -518,7 +510,7 @@ Prompt: A bright, sunny weekday morning in front of a modern two-story office bu
 
 Prompt: A bright late-morning view of a backyard behind a one-story red brick home in suburban Houston. A freshly cleaned wood deck with warm honey-brown boards steps down to a tan and gray concrete paver patio with crisp, even joints. Outdoor dining table and chairs, potted plants, green St. Augustine lawn, a large live oak giving partial shade, clear blue sky. Bright natural daylight, realistic photo, no people, no text, no logos.
 
-## 64. paver-patio-cleaning-houston.jpg
+## 63. paver-patio-cleaning-houston.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/deck-cleaning/
@@ -526,7 +518,7 @@ Prompt: A bright late-morning view of a backyard behind a one-story red brick ho
 
 Prompt: A bright, sunny backyard behind a two-story stone and brick home in suburban Houston. A large tan and charcoal concrete paver patio surrounds a built-in outdoor kitchen and grill. The front half of the patio has just been cleaned and shows crisp, even colors and neat sand joints; the back half is still dark and green with algae near the shaded wall. Green lawn, potted palms, a covered patio ceiling fan, clear blue sky. Realistic photo, no people, no text, no logos.
 
-## 65. driveway-cleaning-houston-hero.jpg
+## 64. driveway-cleaning-houston-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /services/driveway-cleaning/
@@ -534,7 +526,7 @@ Prompt: A bright, sunny backyard behind a two-story stone and brick home in subu
 
 Prompt: A bright, wide, eye-level photo of a long two-car concrete driveway and the public sidewalk crossing in front of it, in a Houston suburb on a sunny morning. The concrete is freshly cleaned, evenly light gray, still slightly damp, with crisp expansion joints. A one-story red brick home with a white garage door sits behind it, green St. Augustine lawn on both sides, a young live oak at the curb and a clear blue sky. Realistic photo, no people, no text, no logos.
 
-## 66. driveway-rust-sprinkler-stain-houston.jpg
+## 65. driveway-rust-sprinkler-stain-houston.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/driveway-cleaning/
@@ -542,7 +534,7 @@ Prompt: A bright, wide, eye-level photo of a long two-car concrete driveway and 
 
 Prompt: A bright, close daytime photo of the edge of a concrete driveway in a Houston-area yard where a pop-up lawn sprinkler head sits in green St. Augustine grass. A clear orange-brown fan-shaped rust stain spreads across the light gray concrete from the sprinkler. Sharp detail, natural sunlight, realistic photo, no people, no text, no logos.
 
-## 67. vinyl-fence-cleaning-houston-backyard.jpg
+## 66. vinyl-fence-cleaning-houston-backyard.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/fence-cleaning/
@@ -550,7 +542,7 @@ Prompt: A bright, close daytime photo of the edge of a concrete driveway in a Ho
 
 Prompt: A sunny backyard behind a newer two-story home in a Houston suburb. A tall white vinyl privacy fence runs along a concrete pool deck. The left half of the fence is bright, clean white; the right half shows a green film of algae and black mildew spots along the lower panels near a flower bed. Blue pool water, green lawn, a palm and a young oak tree, clear blue sky. Bright daylight, realistic photo, no people, no text, no logos.
 
-## 68. wood-fence-cleaning-houston-hero.jpg
+## 67. wood-fence-cleaning-houston-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /services/fence-cleaning/
@@ -558,7 +550,7 @@ Prompt: A sunny backyard behind a newer two-story home in a Houston suburb. A ta
 
 Prompt: A wide, sunny view along a tall cedar board-on-board privacy fence in a suburban Houston backyard. The near half of the fence has just been cleaned and shows warm tan and honey-colored wood; the far half is still silver-gray with green mildew near the bottom boards. Thick green St. Augustine grass, a flower bed with lantana along the fence line, a live oak casting light shade, clear blue sky. Bright natural daylight, realistic photo, no people, no text, no logos.
 
-## 69. gutter-brightening-houston-home.jpg
+## 68. gutter-brightening-houston-home.jpg
 
 - Size: 1920x1080 px
 - Page(s): /services/gutter-cleaning/
@@ -566,7 +558,7 @@ Prompt: A wide, sunny view along a tall cedar board-on-board privacy fence in a 
 
 Prompt: A close, slightly low angle view of a white seamless aluminum gutter and painted fascia running along the roofline of a one-story red brick home in suburban Houston on a bright, sunny morning. The left third of the gutter face still shows dark gray vertical tiger stripes running down from the lip; the rest of the gutter is clean and bright white. Dark shingle roof edge above, a live oak branch and clear blue sky in the background, green lawn edge visible at the bottom. Realistic photo, natural daylight, no people, no ladders in the foreground, no text, no logos.
 
-## 70. gutter-downspout-clean-houston.jpg
+## 69. gutter-downspout-clean-houston.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/gutter-cleaning/
@@ -574,7 +566,7 @@ Prompt: A close, slightly low angle view of a white seamless aluminum gutter and
 
 Prompt: A bright, sunny photo of the side of a single-story light tan brick home in a Houston suburb. A clean, bright white gutter runs along the roofline and turns into a white downspout that ends at a splash block in a neat mulched flower bed with green shrubs. The brick below the gutter is evenly clean with no streaks. Clear blue sky, crepe myrtle in bloom at the edge of the frame, realistic photo, no people, no ladders, no text, no logos.
 
-## 71. gutter-overflow-streaks-brick-wall.jpg
+## 70. gutter-overflow-streaks-brick-wall.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/gutter-cleaning/
@@ -582,7 +574,7 @@ Prompt: A bright, sunny photo of the side of a single-story light tan brick home
 
 Prompt: A bright daytime photo of the corner of a two-story tan brick home in a Houston suburb. Below a white gutter corner, two wide dark gray streaks run down the brick wall where rainwater has overflowed for years, ending above a flower bed with green shrubs. Pine and oak trees overhang the roof, and a few pine needles are visible at the gutter edge. Even natural light, blue sky, realistic photo, no people, no text, no logos.
 
-## 72. house-soft-wash-houston-hero.jpg
+## 71. house-soft-wash-houston-hero.jpg
 
 - Size: 1920x1080 px
 - Page(s): /services/house-washing/
@@ -590,7 +582,7 @@ Prompt: A bright daytime photo of the corner of a two-story tan brick home in a 
 
 Prompt: A wide, bright photo of a two-story suburban Houston home with a red brick lower story and light gray lap siding on the upper story, white trim and a dark shingle roof. The siding and trim look freshly cleaned and evenly colored, with no green or black streaks. Lush green St. Augustine lawn, trimmed shrubs and a young live oak in front, clear blue sky, late-morning sunlight. A soft wash hose rests coiled on the driveway. Realistic photo, no people, no text, no logos.
 
-## 73. stucco-home-after-soft-wash-pearland.jpg
+## 72. stucco-home-after-soft-wash-pearland.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/house-washing/
@@ -598,7 +590,7 @@ Prompt: A wide, bright photo of a two-story suburban Houston home with a red bri
 
 Prompt: A bright, straight-on photo of a one-story cream-colored stucco home with arched front windows, a tan tile accent band and dark bronze window frames in a newer Houston-area suburb. The stucco walls look evenly clean with no dark streaks. A neat green lawn, a young crepe myrtle with pink blooms and a curved concrete walk lead to the front door. Clear blue sky, soft afternoon light. Realistic photo, no people, no text, no logos.
 
-## 74. vinyl-siding-mildew-north-wall-houston.jpg
+## 73. vinyl-siding-mildew-north-wall-houston.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/house-washing/
@@ -606,7 +598,7 @@ Prompt: A bright, straight-on photo of a one-story cream-colored stucco home wit
 
 Prompt: A bright, close-up photo of light beige vinyl lap siding on a Houston-area house. The lower third of the wall, beside a shaded bed of azaleas and mulch, has a clear green film of mildew and algae, while the upper boards in sunlight are cleaner. A downspout runs along one edge and a hose bib is visible. Even daylight, sharp detail, realistic photo, no people, no text, no logos.
 
-## 75. oil-stain-driveway-houston.jpg
+## 74. oil-stain-driveway-houston.jpg
 
 - Size: 1920x1080 px
 - Page(s): /services/oil-stain-removal/
@@ -614,7 +606,7 @@ Prompt: A bright, close-up photo of light beige vinyl lap siding on a Houston-ar
 
 Prompt: A bright, sunny photo of a wide light gray concrete driveway in front of a two-car garage with a white door on a brick home in suburban Houston. In the middle of one parking spot is a dark, roughly round oil drip stain with a fainter older ring around it; the rest of the driveway is clean. Green St. Augustine lawn on both sides, a crepe myrtle near the garage, clear blue sky, crisp midday light. Realistic photo, no cars, no people, no text, no logos.
 
-## 76. rust-sprinkler-stain-concrete-walk.jpg
+## 75. rust-sprinkler-stain-concrete-walk.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/oil-stain-removal/
@@ -622,7 +614,7 @@ Prompt: A bright, sunny photo of a wide light gray concrete driveway in front of
 
 Prompt: A bright, sunny close-up of the edge of a light gray concrete front walkway next to a green St. Augustine lawn at a Houston-area home. A pop-up sprinkler head sits in the grass at the edge, and two orange-brown fan-shaped rust stains spread across the concrete in front of it. A brick planter and green shrubs are softly out of focus in the background. Natural midday light, realistic photo, no people, no text, no logos.
 
-## 77. driveway-before-after-houston-suburb.jpg
+## 76. driveway-before-after-houston-suburb.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/pressure-washing/
@@ -630,7 +622,7 @@ Prompt: A bright, sunny close-up of the edge of a light gray concrete front walk
 
 Prompt: A straight-on view of a wide concrete driveway in front of a two-story brick home in a Houston suburb on a bright, sunny day. The left half of the driveway is dark gray with black mildew and tire marks; the right half is freshly cleaned and evenly light gray, showing a crisp clean line between the two halves. Green lawn on both sides, blue sky. Realistic photo, no people, no text, no logos.
 
-## 78. patio-pool-deck-pressure-washing-houston.jpg
+## 77. patio-pool-deck-pressure-washing-houston.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/pressure-washing/
@@ -638,7 +630,7 @@ Prompt: A straight-on view of a wide concrete driveway in front of a two-story b
 
 Prompt: A bright, sunny backyard behind a two-story brick home in suburban Houston. A wide concrete pool deck and covered patio have just been cleaned: the concrete is evenly light gray and still slightly damp, with a clear blue pool, patio chairs and green St. Augustine grass at the edges. Crisp midday light, clear blue sky, palm and live oak trees in the background. Realistic photo, no people, no text, no logos.
 
-## 79. terms-of-use-houston-front-porch.jpg
+## 78. terms-of-use-houston-front-porch.jpg
 
 - Size: 1920x1080 px
 - Page(s): /terms-of-use/
