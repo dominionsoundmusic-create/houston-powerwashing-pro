@@ -12,17 +12,9 @@ Suggested order: the 1920x1080 heroes first (they show on screen straight away),
 with roof-soft-wash-houston-hero.jpg and roof-cleaning-cost-houston-hero.jpg if listed, because
 their stand-in photo is a frosty tile roof that does not look like Houston.
 
-Total: 2 images.
+Total: 1 images.
 
-## 1. oil-stain-driveway-houston.jpg
-
-- Size: 1920x1080 px
-- Page(s): /services/oil-stain-removal/
-- Alt text: Dark oil drip stain on a light concrete driveway in front of a Houston garage
-
-Prompt: A bright, sunny photo of a wide light gray concrete driveway in front of a two-car garage with a white door on a brick home in suburban Houston. In the middle of one parking spot is a dark, roughly round oil drip stain with a fainter older ring around it; the rest of the driveway is clean. Green St. Augustine lawn on both sides, a crepe myrtle near the garage, clear blue sky, crisp midday light. Realistic photo, no cars, no people, no text, no logos.
-
-## 2. driveway-before-after-houston-suburb.jpg
+## 1. driveway-before-after-houston-suburb.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/pressure-washing/
