@@ -1,0 +1,88 @@
+---
+type: page
+title: "Pressure Washing Service Areas Around Houston, TX"
+description: "Pressure washing service areas across greater Houston, from The Woodlands and Kingwood to Katy, Sugar Land, Pearland and League City. One free number for all."
+h1: "Pressure Washing Service Areas Across Greater Houston"
+crumb: "Service Areas"
+hero:
+  image: service-areas-houston-suburbs-aerial.jpg
+  alt: "Row of two-story brick homes with clean walks along a neighborhood lake in the Houston suburbs"
+  desc: "Bright, high-angle daytime photo over a tree-lined suburban neighborhood near Houston, Texas: rows of brick and siding homes with gray shingle roofs, light concrete driveways and cul-de-sacs, green lawns, tall pines and live oaks, a retention pond in the distance, flat land to the horizon under a blue sky with scattered white clouds. Realistic photo, no text, no logos, no identifiable landmarks or signs."
+  fallback: pw-hero.jpg
+  fallback_alt: "Clean concrete driveway beside a mowed lawn and a brick house"
+  size: short
+  lead: "One phone number covers Houston and the suburbs around it. Call from any of these areas and you are put through to an independent local pressure washing company."
+cta_title: "Calling from somewhere not listed?"
+cta_text: "If you are in the greater Houston area, call anyway. Say where the property is and what needs cleaning. The assistant passes that along so the company can tell you whether it covers your address."
+faqs:
+  - q: "Do you have an office in each of these cities?"
+    a: "<p>No. Houston Power Washing Pro is a phone line, not a company with branches. The city pages exist because each area has its own rules, weather quirks and housing. The company you are connected with travels to the property.</p>"
+  - q: "Can I call if my city is not on the list?"
+    a: "<p>Yes, as long as the property is in the Houston area. Tell the assistant the city or ZIP code. The line does not cover areas outside greater Houston.</p>"
+  - q: "Does the company I'm connected with change depending on where I live?"
+    a: "<p>Your call goes to an independent, owner-run local pressure washing company. Where you are and what you need are part of the summary it hears before it picks up, so it can tell you straight away whether your address and job are a fit.</p>"
+  - q: "Are the rules different in different suburbs?"
+    a: "<p>Often. Unincorporated areas such as Cypress and Spring follow Harris County rules and their own deed restrictions, while cities like Sugar Land, Pearland and League City have their own codes. Drought stages, HOA standards and storm-drain rules vary, which is why each area page is different.</p>"
+---
+{% block content %}
+<section class="prose">
+  <p class="lead">Houston Power Washing Pro takes calls from Houston itself and from the suburbs that ring it, north to Conroe, west to Katy, southwest to Missouri City and south toward Clear Lake. The number and the process are the same everywhere: an automated assistant answers, takes down the job and the location, and puts you through to an independent, owner-run local pressure washing company.</p>
+  <p>There are no branch offices. What changes from one area to the next is the job itself. A wooded lot in Kingwood grows mildew differently from a new-build driveway in Cypress. A Woodlands home sits under township covenants, while a house in Pearland answers to city code and its HOA. The pages below cover those local details so you know what to expect and what to ask.</p>
+</section>
+
+{% set regions = [
+  ('North of Houston', ['North', 'Northeast']),
+  ('Northwest and west', ['Northwest', 'West']),
+  ('Southwest', ['Southwest']),
+  ('South and toward the coast', ['South', 'Southeast'])
+] %}
+<section class="band band--tint">
+  <div class="wide">
+    <h2>Areas with their own page</h2>
+    {% for label, keys in regions %}
+    <h3>{{ label }}</h3>
+    <div class="cards">
+      {% for c in site.cities if c.region in keys %}
+      <article class="card card--text">
+        <div class="card__body">
+          <h3><a href="/service-areas/{{ c.slug }}/">Pressure washing in {{ c.name }}</a></h3>
+          <p>{{ c.summary }}</p>
+          <p class="card__more" aria-hidden="true">{{ c.county }}</p>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="prose">
+  <div class="split">
+    <div>
+      <h2>Houston inside the city limits</h2>
+      <p>The line covers the City of Houston too, from the Heights and Montrose to Meyerland, Clear Lake and Kingwood (which is part of the city). Inside city limits, one rule matters for any outdoor cleaning: the City of Houston's storm water ordinance makes it an offense to let anything other than storm water into the storm sewer, apart from a short list of exceptions. A careful company plans where its wash water goes, especially on commercial jobs.</p>
+      <p>Businesses that wash grease areas or dumpster pads inside the city have extra rules. The Houston Health Department issues a pressure washer permit for that kind of work, so ask the company you are connected with whether it holds one if your job involves grease.</p>
+    </div>
+    {{ img('pw-06-card.jpg', 'Worker pressure washing a city sidewalk in front of storefronts', 1200, 675) }}
+  </div>
+
+  <h2>How coverage works</h2>
+  <ol class="steps">
+    <li><strong>You say where the property is.</strong> The assistant asks for the city or ZIP code along with what needs cleaning.</li>
+    <li><strong>You are put through.</strong> The call goes to an independent local pressure washing company, which hears that summary first.</li>
+    <li><strong>The company confirms it can do the job.</strong> It works out travel and timing with you directly. If it is on a job, it calls you back.</li>
+  </ol>
+  {{ m.disclosure() }}
+
+  {{ img('service-areas-suburban-street-clean-driveways.jpg', 'Suburban Houston street with clean concrete driveways and two-story homes under tall pines', 1200, 800, desc='Bright, eye-level daytime photo looking down a quiet suburban street near Houston, Texas, with a row of two-story brick homes, light clean concrete driveways and sidewalks, young live oak trees along the curb and green lawns. Blue sky, soft sun. Realistic photo, no people, no cars with readable plates, no text, no logos, no street signs.') }}
+
+  <h2>Find the right service</h2>
+  <p>Whatever part of Houston you are in, the same services are available through the line. Start with the one that matches what you see.</p>
+  {{ m.related(['house-washing', 'driveway-cleaning', 'roof-cleaning', 'commercial-pressure-washing', 'fence-cleaning'], 'Popular services') }}
+
+  {{ m.sources([
+    {'label': 'City of Houston Code of Ordinances, Chapter 47, Article XII (storm water discharges)', 'url': 'https://library.municode.com/tx/houston/codes/code_of_ordinances?nodeId=COOR_CH47WASE_ARTXIISTWADI_DIV1INGE_S47-601DE'},
+    {'label': 'Houston Health Department: special waste service companies (pressure washer permit)', 'url': 'https://www.houstonhealth.org/services/permits/special-waste-permits/special-waste-service-companies'}
+  ]) }}
+</section>
+{% endblock %}
