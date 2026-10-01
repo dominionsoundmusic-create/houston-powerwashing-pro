@@ -12,7 +12,7 @@ Suggested order: the 1920x1080 heroes first (they show on screen straight away),
 with roof-soft-wash-houston-hero.jpg and roof-cleaning-cost-houston-hero.jpg if listed, because
 their stand-in photo is a frosty tile roof that does not look like Houston.
 
-Total: 82 images.
+Total: 81 images.
 
 ## 1. home-hero-houston-house-and-driveway.jpg
 
@@ -646,15 +646,7 @@ Prompt: A straight-on view of a wide concrete driveway in front of a two-story b
 
 Prompt: A bright, sunny backyard behind a two-story brick home in suburban Houston. A wide concrete pool deck and covered patio have just been cleaned: the concrete is evenly light gray and still slightly damp, with a clear blue pool, patio chairs and green St. Augustine grass at the edges. Crisp midday light, clear blue sky, palm and live oak trees in the background. Realistic photo, no people, no text, no logos.
 
-## 80. roof-algae-streaks-closeup-houston.jpg
-
-- Size: 1200x800 px
-- Page(s): /services/roof-cleaning/
-- Alt text: Close view of gray asphalt shingles with black algae streaks below a roof ridge
-
-Prompt: A bright, sharp close-up of a gray architectural asphalt shingle roof on a Houston-area home, shot from a ladder-height angle on a clear day. Dark black vertical algae streaks run down from the ridge across several courses of shingles, with the shingle granules clearly visible. A gutter edge and a few pine needles appear at the bottom of the frame, blue sky at the top. Realistic photo, no people, no text, no logos.
-
-## 81. tile-roof-soft-wash-houston-home.jpg
+## 80. tile-roof-soft-wash-houston-home.jpg
 
 - Size: 1200x800 px
 - Page(s): /services/roof-cleaning/
@@ -662,7 +654,7 @@ Prompt: A bright, sharp close-up of a gray architectural asphalt shingle roof on
 
 Prompt: A bright, sunny photo of a single-story cream stucco home in a newer Houston-area suburb with a clean terracotta concrete tile roof. The tiles look evenly colored with no dark growth. A palm tree and a young live oak stand in the front yard, green lawn, clear blue sky, crisp midday light. Realistic photo, no people, no text, no logos.
 
-## 82. terms-of-use-houston-front-porch.jpg
+## 81. terms-of-use-houston-front-porch.jpg
 
 - Size: 1920x1080 px
 - Page(s): /terms-of-use/
