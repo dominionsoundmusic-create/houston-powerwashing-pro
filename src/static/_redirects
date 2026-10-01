@@ -1,39 +1,106 @@
-# redirects
+# Houston Power Washing Pro redirects (Oct 2026 rebuild)
+# Old live-site URLs 301 to their new homes. Netlify serves real files first, and no rule
+# below matches a path that exists in the new site (/services/*, /guides/*, /service-areas/*).
 
-# Sep 11 2026 - templated city pages retired; wildcards send them to the hub.
-/deck-cleaning/*  /deck-cleaning/  301
-/driveway-cleaning/*  /driveway-cleaning/  301
-/fence-cleaning/*  /fence-cleaning/  301
+# Old pressure washing hub and its city pages
+/pressure-washing                          /services/pressure-washing/             301
+/pressure-washing/                         /services/pressure-washing/             301
+/pressure-washing/index.html               /services/pressure-washing/             301
+/pressure-washing/conroe-tx                /service-areas/conroe/                  301
+/pressure-washing/conroe-tx.html           /service-areas/conroe/                  301
+/pressure-washing/cypress-tx               /service-areas/cypress/                 301
+/pressure-washing/cypress-tx.html          /service-areas/cypress/                 301
+/pressure-washing/friendswood-tx           /service-areas/friendswood/             301
+/pressure-washing/friendswood-tx.html      /service-areas/friendswood/             301
+/pressure-washing/katy-tx                  /service-areas/katy/                    301
+/pressure-washing/katy-tx.html             /service-areas/katy/                    301
+/pressure-washing/kingwood-tx              /service-areas/kingwood/                301
+/pressure-washing/kingwood-tx.html         /service-areas/kingwood/                301
+/pressure-washing/league-city-tx           /service-areas/league-city/             301
+/pressure-washing/league-city-tx.html      /service-areas/league-city/             301
+/pressure-washing/missouri-city-tx         /service-areas/missouri-city/           301
+/pressure-washing/missouri-city-tx.html    /service-areas/missouri-city/           301
+/pressure-washing/pearland-tx              /service-areas/pearland/                301
+/pressure-washing/pearland-tx.html         /service-areas/pearland/                301
+/pressure-washing/spring-tx                /service-areas/spring/                  301
+/pressure-washing/spring-tx.html           /service-areas/spring/                  301
+/pressure-washing/sugar-land-tx            /service-areas/sugar-land/              301
+/pressure-washing/sugar-land-tx.html       /service-areas/sugar-land/              301
+/pressure-washing/the-woodlands-tx         /service-areas/the-woodlands/           301
+/pressure-washing/the-woodlands-tx.html    /service-areas/the-woodlands/           301
 
-/pressure-washing/*  /pressure-washing/  301
+# Old standalone city folders
+/cypress-pressure-washing                  /service-areas/cypress/                 301
+/cypress-pressure-washing/                 /service-areas/cypress/                 301
+/cypress-pressure-washing/index.html       /service-areas/cypress/                 301
+/tomball-pressure-washing                  /service-areas/tomball/                 301
+/tomball-pressure-washing/                 /service-areas/tomball/                 301
+/tomball-pressure-washing/index.html       /service-areas/tomball/                 301
 
-# Sep 11 2026 - keyword data: "pressure washing Houston" 1,300/mo vs "power washing Houston" 140/mo
-/power-washing/*  /pressure-washing/  301
-/power-washing/  /pressure-washing/  301
-# "roof cleaning Houston" 210/mo; "roof soft wash Houston" no measurable volume
-/roof-soft-wash/*  /roof-cleaning/  301
-/roof-soft-wash/  /roof-cleaning/  301
+# Old service pages
+/house-washing                             /services/house-washing/                301
+/house-washing.html                        /services/house-washing/                301
+/roof-cleaning                             /services/roof-cleaning/                301
+/roof-cleaning/                            /services/roof-cleaning/                301
+/roof-cleaning/index.html                  /services/roof-cleaning/                301
+/driveway-cleaning                         /services/driveway-cleaning/            301
+/driveway-cleaning/                        /services/driveway-cleaning/            301
+/driveway-cleaning/index.html              /services/driveway-cleaning/            301
+/fence-cleaning                            /services/fence-cleaning/               301
+/fence-cleaning/                           /services/fence-cleaning/               301
+/fence-cleaning/index.html                 /services/fence-cleaning/               301
+/deck-cleaning                             /services/deck-cleaning/                301
+/deck-cleaning/                            /services/deck-cleaning/                301
+/deck-cleaning/index.html                  /services/deck-cleaning/                301
+/gutter-cleaning                           /services/gutter-cleaning/              301
+/gutter-cleaning.html                      /services/gutter-cleaning/              301
+/oil-stain-removal                         /services/oil-stain-removal/            301
+/oil-stain-removal.html                    /services/oil-stain-removal/            301
 
-# Sep 25 2026 - automatic blog posts retired (templated). Each old post points to the closest real page.
-/blog/how-clean-exterior-surfaces-prevent-costly-repairs-1785851346417.html  /house-washing  301
-/blog/how-clean-exterior-surfaces-prevent-costly-repairs-1785851346417  /house-washing  301
-/blog/roof-soft-washing-and-why-bleach-damages-shingles-1786452219526.html  /roof-cleaning/  301
-/blog/roof-soft-washing-and-why-bleach-damages-shingles-1786452219526  /roof-cleaning/  301
-/blog/removing-oil-stains-from-concrete-driveways-1786192092061.html  /oil-stain-removal  301
-/blog/removing-oil-stains-from-concrete-driveways-1786192092061  /oil-stain-removal  301
-/blog/how-often-should-you-pressure-wash-your-house-1786106549742.html  /house-washing  301
-/blog/how-often-should-you-pressure-wash-your-house-1786106549742  /house-washing  301
-/blog/best-time-of-year-to-pressure-wash-in-houston-1786023811161.html  /pressure-washing/  301
-/blog/best-time-of-year-to-pressure-wash-in-houston-1786023811161  /pressure-washing/  301
-/blog/removing-oil-stains-from-concrete-driveways-1786365977335.html  /oil-stain-removal  301
-/blog/removing-oil-stains-from-concrete-driveways-1786365977335  /oil-stain-removal  301
-/blog/signs-your-driveway-needs-professional-cleaning-1785937484523.html  /driveway-cleaning/  301
-/blog/signs-your-driveway-needs-professional-cleaning-1785937484523  /driveway-cleaning/  301
-/blog/pressure-washing-vs-soft-washing-what-is-the-difference-1786970351926.html  /roof-cleaning/  301
-/blog/pressure-washing-vs-soft-washing-what-is-the-difference-1786970351926  /roof-cleaning/  301
-/blog/how-often-should-you-pressure-wash-your-house-1786278617158.html  /house-washing  301
-/blog/how-often-should-you-pressure-wash-your-house-1786278617158  /house-washing  301
-/blog/why-diy-pressure-washing-damages-siding-1785707405482.html  /house-washing  301
-/blog/why-diy-pressure-washing-damages-siding-1785707405482  /house-washing  301
-/blog/*  /  301
-/blog  /  301
+# Old guides
+/pressure-washing-cost                     /guides/pressure-washing-cost/          301
+/pressure-washing-cost.html                /guides/pressure-washing-cost/          301
+/pressure-washing-quote                    /guides/pressure-washing-quote/         301
+/pressure-washing-quote.html               /guides/pressure-washing-quote/         301
+/roof-cleaning-cost                        /guides/roof-cleaning-cost/             301
+/roof-cleaning-cost.html                   /guides/roof-cleaning-cost/             301
+
+# Old legal and utility pages
+/terms                                     /terms-of-use/                          301
+/terms.html                                /terms-of-use/                          301
+/privacy-policy.html                       /privacy-policy/                        301
+/contact/thanks                            /thank-you/                             301
+/contact/thanks/                           /thank-you/                             301
+/contact/thanks/index.html                 /thank-you/                             301
+
+# Retired keyword folders (Sep 2026). The homepage now targets "power washing Houston".
+/power-washing                             /                                       301
+/power-washing/                            /                                       301
+/power-washing/*                           /                                       301
+/roof-soft-wash                            /services/roof-cleaning/                301
+/roof-soft-wash/                           /services/roof-cleaning/                301
+/roof-soft-wash/*                          /services/roof-cleaning/                301
+
+# Sep 25 2026: retired automatic blog posts, each pointed at the new home of its old target
+/blog/how-clean-exterior-surfaces-prevent-costly-repairs-1785851346417.html        /services/house-washing/               301
+/blog/how-clean-exterior-surfaces-prevent-costly-repairs-1785851346417             /services/house-washing/               301
+/blog/roof-soft-washing-and-why-bleach-damages-shingles-1786452219526.html         /services/roof-cleaning/               301
+/blog/roof-soft-washing-and-why-bleach-damages-shingles-1786452219526              /services/roof-cleaning/               301
+/blog/removing-oil-stains-from-concrete-driveways-1786192092061.html               /services/oil-stain-removal/           301
+/blog/removing-oil-stains-from-concrete-driveways-1786192092061                    /services/oil-stain-removal/           301
+/blog/how-often-should-you-pressure-wash-your-house-1786106549742.html             /services/house-washing/ 301
+/blog/how-often-should-you-pressure-wash-your-house-1786106549742                  /services/house-washing/ 301
+/blog/best-time-of-year-to-pressure-wash-in-houston-1786023811161.html             /services/pressure-washing/            301
+/blog/best-time-of-year-to-pressure-wash-in-houston-1786023811161                  /services/pressure-washing/            301
+/blog/removing-oil-stains-from-concrete-driveways-1786365977335.html               /services/oil-stain-removal/           301
+/blog/removing-oil-stains-from-concrete-driveways-1786365977335                    /services/oil-stain-removal/           301
+/blog/signs-your-driveway-needs-professional-cleaning-1785937484523.html           /services/driveway-cleaning/           301
+/blog/signs-your-driveway-needs-professional-cleaning-1785937484523                /services/driveway-cleaning/           301
+/blog/pressure-washing-vs-soft-washing-what-is-the-difference-1786970351926.html   /services/roof-cleaning/ 301
+/blog/pressure-washing-vs-soft-washing-what-is-the-difference-1786970351926        /services/roof-cleaning/ 301
+/blog/how-often-should-you-pressure-wash-your-house-1786278617158.html             /services/house-washing/ 301
+/blog/how-often-should-you-pressure-wash-your-house-1786278617158                  /services/house-washing/ 301
+/blog/why-diy-pressure-washing-damages-siding-1785707405482.html                   /services/house-washing/               301
+/blog/why-diy-pressure-washing-damages-siding-1785707405482                        /services/house-washing/               301
+/blog/*                                    /                                       301
+/blog                                      /                                       301

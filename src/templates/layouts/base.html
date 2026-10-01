@@ -43,7 +43,7 @@
 <a class="skip" href="#main">Skip to content</a>
 {% include "partials/header.html" %}
 <main id="main">
-{% block hero %}{% if page.hero %}{% include "partials/hero.html" %}{% endif %}{% endblock %}
+{% block hero %}{% if page.hero %}{% include "partials/hero.html" %}{% else %}<section class="title-band"><div class="col"><h1>{{ page.h1 }}</h1></div></section>{% endif %}{% endblock %}
 {% if page.breadcrumbs is defined and page.breadcrumbs %}
 <nav class="crumbs" aria-label="Breadcrumb"><ol>
 {% for c in page.breadcrumbs %}

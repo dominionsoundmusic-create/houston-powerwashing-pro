@@ -360,6 +360,10 @@ class Builder:
             "Style for every image: bright, clearly visible, Houston-area homes and surfaces, natural",
             "daylight, no text, no logos, no watermarks, no recognizable faces.",
             "",
+            "Suggested order: the 1920x1080 heroes first (they show on screen straight away), starting",
+            "with roof-soft-wash-houston-hero.jpg and roof-cleaning-cost-houston-hero.jpg if listed, because",
+            "their stand-in photo is a frosty tile roof that does not look like Houston.",
+            "",
             f"Total: {len(rows)} images.",
             "",
         ]

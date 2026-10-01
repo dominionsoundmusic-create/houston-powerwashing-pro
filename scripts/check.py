@@ -212,7 +212,8 @@ def main():
         visible_faq = raw.count('class="faq__item"')
         if visible_faq != faq_count:
             err(f"visible FAQ items ({visible_faq}) != FAQPage entries ({faq_count})")
-        if url not in ("/404.html", "/thank-you/", "/privacy-policy/", "/terms-of-use/") and not (3 <= visible_faq <= 6):
+        max_faq = 20 if url == "/faq/" else 6
+        if url not in ("/404.html", "/thank-you/", "/privacy-policy/", "/terms-of-use/") and not (3 <= visible_faq <= max_faq):
             err(f"page needs 3 to 6 common questions, has {visible_faq}")
         # headings order
         last = 1
@@ -259,6 +260,24 @@ def main():
         if len(urls) > 1 and d:
             errors.append(f"duplicate description on {urls}")
 
+    # _redirects: every target must exist, and no rule may shadow a real page
+    red = dist / "_redirects"
+    if red.exists():
+        for line in red.read_text().splitlines():
+            parts = line.split()
+            if not parts or parts[0].startswith("#"):
+                continue
+            src, dst = parts[0], parts[1]
+            if not resolve(dst, dist):
+                errors.append(f"_redirects: target {dst} does not exist (from {src})")
+            if "*" not in src and src != "/" and resolve(src, dist) and not src.endswith(".html"):
+                errors.append(f"_redirects: rule {src} shadows a real page")
+            if "*" in src:
+                base = src.split("*")[0]
+                if any(url_of(f, dist).startswith(base) for f in files):
+                    errors.append(f"_redirects: wildcard {src} overlaps real pages")
+    else:
+        errors.append("dist/_redirects missing")
     errors = list(dict.fromkeys(errors))
     for w in warnings:
         print("WARN ", w)

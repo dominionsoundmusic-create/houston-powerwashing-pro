@@ -59,21 +59,63 @@
     "gtm_id": ""
   },
   "nav": [
-    {"label": "Services", "href": "/services/", "menu": "services"},
-    {"label": "Service Areas", "href": "/service-areas/", "menu": "cities"},
-    {"label": "Guides", "href": "", "menu": "guides"},
-    {"label": "How It Works", "href": "/how-it-works/"},
-    {"label": "About", "href": "/about/"},
-    {"label": "FAQ", "href": "/faq/"},
-    {"label": "Contact", "href": "/contact/"}
+    {
+      "label": "Services",
+      "href": "/services/",
+      "menu": "services"
+    },
+    {
+      "label": "Service Areas",
+      "href": "/service-areas/",
+      "menu": "cities"
+    },
+    {
+      "label": "Guides",
+      "href": "",
+      "menu": "guides"
+    },
+    {
+      "label": "How It Works",
+      "href": "/how-it-works/"
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/"
+    }
   ],
   "footer_links": [
-    {"label": "How It Works", "href": "/how-it-works/"},
-    {"label": "About", "href": "/about/"},
-    {"label": "FAQ", "href": "/faq/"},
-    {"label": "Contact", "href": "/contact/"},
-    {"label": "Privacy Policy", "href": "/privacy-policy/"},
-    {"label": "Terms of Use", "href": "/terms-of-use/"}
+    {
+      "label": "How It Works",
+      "href": "/how-it-works/"
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq/"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy/"
+    },
+    {
+      "label": "Terms of Use",
+      "href": "/terms-of-use/"
+    }
   ],
   "services": [
     {
@@ -159,25 +201,127 @@
     }
   ],
   "guides": [
-    {"slug": "pressure-washing-cost", "name": "How Much Does Pressure Washing Cost?", "short": "Pressure Washing Cost", "summary": "What actually moves the price of a pressure washing job in Houston, and how to compare quotes."},
-    {"slug": "pressure-washing-quote", "name": "How to Get a Pressure Washing Quote", "short": "Getting a Quote", "summary": "What to have ready before you call, what a written quote should list, and the questions worth asking."},
-    {"slug": "how-often-pressure-wash-house", "name": "How Often Should You Pressure Wash a House?", "short": "How Often to Wash", "summary": "A realistic schedule for siding, roofs, driveways and fences in Houston humidity."},
-    {"slug": "power-washing-vs-pressure-washing", "name": "Power Washing vs Pressure Washing", "short": "Power vs Pressure Washing", "summary": "What the two terms mean, where soft washing fits, and which one your surface needs."},
-    {"slug": "does-pressure-washing-damage-concrete", "name": "Does Pressure Washing Damage Concrete?", "short": "Pressure Washing and Concrete", "summary": "How concrete gets etched or striped, and what a careful company does differently."},
-    {"slug": "roof-cleaning-cost", "name": "How Much Does Roof Cleaning Cost?", "short": "Roof Cleaning Cost", "summary": "What shapes the price of a soft wash roof cleaning on a Houston-area home."}
+    {
+      "slug": "pressure-washing-cost",
+      "name": "How Much Does Pressure Washing Cost?",
+      "short": "Pressure Washing Cost",
+      "summary": "What actually moves the price of a pressure washing job in Houston, and how to compare quotes."
+    },
+    {
+      "slug": "pressure-washing-quote",
+      "name": "How to Get a Pressure Washing Quote",
+      "short": "Getting a Quote",
+      "summary": "What to have ready before you call, what a written quote should list, and the questions worth asking."
+    },
+    {
+      "slug": "how-often-pressure-wash-house",
+      "name": "How Often Should You Pressure Wash a House?",
+      "short": "How Often to Wash",
+      "summary": "A realistic schedule for siding, roofs, driveways and fences in Houston humidity."
+    },
+    {
+      "slug": "power-washing-vs-pressure-washing",
+      "name": "Power Washing vs Pressure Washing",
+      "short": "Power vs Pressure Washing",
+      "summary": "What the two terms mean, where soft washing fits, and which one your surface needs."
+    },
+    {
+      "slug": "does-pressure-washing-damage-concrete",
+      "name": "Does Pressure Washing Damage Concrete?",
+      "short": "Pressure Washing and Concrete",
+      "summary": "How concrete gets etched or striped, and what a careful company does differently."
+    },
+    {
+      "slug": "roof-cleaning-cost",
+      "name": "How Much Does Roof Cleaning Cost?",
+      "short": "Roof Cleaning Cost",
+      "summary": "What shapes the price of a soft wash roof cleaning on a Houston-area home."
+    }
   ],
   "cities": [
-    {"slug": "the-woodlands", "name": "The Woodlands", "county": "Montgomery County", "summary": "Pine shade, township covenants and wooded lots that keep siding and roofs damp."},
-    {"slug": "katy", "name": "Katy", "county": "Harris, Fort Bend and Waller counties", "summary": "Large master-planned communities where HOA inspections notice dark driveways and green siding."},
-    {"slug": "sugar-land", "name": "Sugar Land", "county": "Fort Bend County", "summary": "Established neighborhoods, lakes and city rules about what can go down a storm drain."},
-    {"slug": "cypress", "name": "Cypress", "county": "unincorporated Harris County", "summary": "Fast-growing communities along the Highway 290 corridor with deed restrictions and newer concrete."},
-    {"slug": "pearland", "name": "Pearland", "county": "Brazoria, Harris and Fort Bend counties", "summary": "Clay soil, irrigation stains and wide driveways south of Houston."},
-    {"slug": "spring", "name": "Spring", "county": "unincorporated Harris and Montgomery counties", "summary": "Tall pines, shaded roofs and creekside lots north of Houston."},
-    {"slug": "conroe", "name": "Conroe", "county": "Montgomery County", "summary": "Lake Conroe homes, docks and wooded lots, plus newer subdivisions in town."},
-    {"slug": "tomball", "name": "Tomball", "county": "Harris County", "summary": "Older homes near downtown and acreage lots with long driveways and wood fences."},
-    {"slug": "kingwood", "name": "Kingwood", "county": "City of Houston, Harris and Montgomery counties", "summary": "The Livable Forest, where heavy tree cover means more mildew and leaf staining."},
-    {"slug": "league-city", "name": "League City", "county": "Galveston County", "summary": "Coastal air near Clear Lake that leaves salt film and mildew on homes."},
-    {"slug": "friendswood", "name": "Friendswood", "county": "Galveston and Harris counties", "summary": "Mature trees and creekside neighborhoods between Houston and the coast."},
-    {"slug": "missouri-city", "name": "Missouri City", "county": "Fort Bend and Harris counties", "summary": "Established neighborhoods and newer master-planned communities southwest of Houston."}
+    {
+      "slug": "the-woodlands",
+      "name": "The Woodlands",
+      "county": "Montgomery County",
+      "summary": "Township covenants, village design committees and pine shade that keeps roofs, siding and fences damp.",
+      "region": "North"
+    },
+    {
+      "slug": "katy",
+      "name": "Katy",
+      "county": "Harris, Fort Bend and Waller counties",
+      "summary": "City, Cinco Ranch and MUD addresses across three counties, where drought stages can limit washing.",
+      "region": "West"
+    },
+    {
+      "slug": "sugar-land",
+      "name": "Sugar Land",
+      "county": "Fort Bend County",
+      "summary": "First Colony lists mildew among top deed violations, and city rules keep detergent out of storm drains.",
+      "region": "Southwest"
+    },
+    {
+      "slug": "cypress",
+      "name": "Cypress",
+      "county": "unincorporated Harris County",
+      "summary": "Unincorporated Harris County, where HOA deed restrictions, MUDs and county drain rules shape the job.",
+      "region": "Northwest"
+    },
+    {
+      "slug": "pearland",
+      "name": "Pearland",
+      "county": "Brazoria, Harris and Fort Bend counties",
+      "summary": "Deed-restricted communities like Shadow Creek Ranch, stucco homes and Clear Creek flood history.",
+      "region": "South"
+    },
+    {
+      "slug": "spring",
+      "name": "Spring",
+      "county": "unincorporated Harris and Montgomery counties",
+      "summary": "Loblolly pines, heavy spring pollen and Cypress Creek neighborhoods in unincorporated Harris County.",
+      "region": "North"
+    },
+    {
+      "slug": "conroe",
+      "name": "Conroe",
+      "county": "Montgomery County",
+      "summary": "Lake Conroe homes and docks, pine-shaded lots, and a drought plan that can pause outdoor washing.",
+      "region": "North"
+    },
+    {
+      "slug": "tomball",
+      "name": "Tomball",
+      "county": "Harris County",
+      "summary": "A historic railroad downtown, long fence lines, and drought rules that can limit washing hard surfaces.",
+      "region": "Northwest"
+    },
+    {
+      "slug": "kingwood",
+      "name": "Kingwood",
+      "county": "City of Houston, Harris and Montgomery counties",
+      "summary": "The Livable Forest, part of Houston since 1996, where heavy shade and village deed restrictions shape the job.",
+      "region": "Northeast"
+    },
+    {
+      "slug": "league-city",
+      "name": "League City",
+      "county": "Galveston County",
+      "summary": "Historic District oaks, Clear Creek flood history and humid air off Clear Lake and Galveston Bay.",
+      "region": "Southeast"
+    },
+    {
+      "slug": "friendswood",
+      "name": "Friendswood",
+      "county": "Galveston and Harris counties",
+      "summary": "A former Quaker colony on three creeks, with wooded, deed-restricted lots and older subdivisions.",
+      "region": "South"
+    },
+    {
+      "slug": "missouri-city",
+      "name": "Missouri City",
+      "county": "Fort Bend and Harris counties",
+      "summary": "Quail Valley and Sienna, where city code names mildew and drought stages can limit pavement washing.",
+      "region": "Southwest"
+    }
   ]
 }

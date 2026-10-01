@@ -1,0 +1,30 @@
+---
+type: page
+noindex: true
+title: "Page Not Found | Houston Power Washing Pro"
+description: "That page could not be found. Find pressure washing services and Houston-area service areas here, or call the free line at (832) 662-4107."
+h1: "That Page Could Not Be Found"
+hero:
+  image: pw-hero.jpg
+  alt: "Clean concrete driveway beside a mowed lawn and a brick house"
+  size: short
+  lead: "The link may be old or mistyped. Try one of the pages below, or call the free line and say what needs cleaning."
+  secondary_href: "/services/"
+  secondary_label: "See all services"
+cta: false
+---
+{% block content %}
+<section class="prose">
+  <h2>Popular pages</h2>
+  <ul class="pill-list">
+    <li><a href="/">Home</a></li>
+    <li><a href="/services/">All services</a></li>
+    <li><a href="/service-areas/">Service areas</a></li>
+    <li><a href="/how-it-works/">How it works</a></li>
+    <li><a href="/faq/">FAQ</a></li>
+    <li><a href="/contact/">Contact</a></li>
+  </ul>
+  <h2>Services</h2>
+  {{ m.service_cards() }}
+</section>
+{% endblock %}
