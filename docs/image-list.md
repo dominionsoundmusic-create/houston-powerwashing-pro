@@ -12,7 +12,7 @@ Suggested order: the 1920x1080 heroes first (they show on screen straight away),
 with roof-soft-wash-houston-hero.jpg and roof-cleaning-cost-houston-hero.jpg if listed, because
 their stand-in photo is a frosty tile roof that does not look like Houston.
 
-Total: 81 images.
+Total: 80 images.
 
 ## 1. home-hero-houston-house-and-driveway.jpg
 
@@ -646,15 +646,7 @@ Prompt: A straight-on view of a wide concrete driveway in front of a two-story b
 
 Prompt: A bright, sunny backyard behind a two-story brick home in suburban Houston. A wide concrete pool deck and covered patio have just been cleaned: the concrete is evenly light gray and still slightly damp, with a clear blue pool, patio chairs and green St. Augustine grass at the edges. Crisp midday light, clear blue sky, palm and live oak trees in the background. Realistic photo, no people, no text, no logos.
 
-## 80. tile-roof-soft-wash-houston-home.jpg
-
-- Size: 1200x800 px
-- Page(s): /services/roof-cleaning/
-- Alt text: Clean terracotta tile roof on a stucco home with palm trees under a blue sky in a Houston suburb
-
-Prompt: A bright, sunny photo of a single-story cream stucco home in a newer Houston-area suburb with a clean terracotta concrete tile roof. The tiles look evenly colored with no dark growth. A palm tree and a young live oak stand in the front yard, green lawn, clear blue sky, crisp midday light. Realistic photo, no people, no text, no logos.
-
-## 81. terms-of-use-houston-front-porch.jpg
+## 80. terms-of-use-houston-front-porch.jpg
 
 - Size: 1920x1080 px
 - Page(s): /terms-of-use/
