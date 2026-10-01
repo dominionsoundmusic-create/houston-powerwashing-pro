@@ -12,12 +12,4 @@ Suggested order: the 1920x1080 heroes first (they show on screen straight away),
 with roof-soft-wash-houston-hero.jpg and roof-cleaning-cost-houston-hero.jpg if listed, because
 their stand-in photo is a frosty tile roof that does not look like Houston.
 
-Total: 1 images.
-
-## 1. driveway-before-after-houston-suburb.jpg
-
-- Size: 1200x800 px
-- Page(s): /services/pressure-washing/
-- Alt text: Concrete driveway with one half dark with mildew and the other half freshly cleaned in a Houston suburb
-
-Prompt: A straight-on view of a wide concrete driveway in front of a two-story brick home in a Houston suburb on a bright, sunny day. The left half of the driveway is dark gray with black mildew and tire marks; the right half is freshly cleaned and evenly light gray, showing a crisp clean line between the two halves. Green lawn on both sides, blue sky. Realistic photo, no people, no text, no logos.
+Total: 0 images.
