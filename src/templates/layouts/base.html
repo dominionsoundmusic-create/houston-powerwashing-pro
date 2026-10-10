@@ -38,6 +38,10 @@
 {% if page.jsonld %}
 <script type="application/ld+json">{{ page.jsonld | tojson_ld }}</script>
 {% endif %}
+{% if site.analytics.ga4_id %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.ga4_id }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ site.analytics.ga4_id }}');document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="tel:"]');if(a){gtag('event','phone_call_click',{phone_number:a.getAttribute('href').slice(4),link_url:location.pathname});}},true);</script>
+{% endif %}
 </head>
 <body class="type-{{ page.type | default('page') }}">
 <a class="skip" href="#main">Skip to content</a>
