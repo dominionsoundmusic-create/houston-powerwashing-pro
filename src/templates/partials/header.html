@@ -1,6 +1,9 @@
 {% set b = site.business %}
 <div class="quote-bar" role="note">
   <p><q>{{ b.quote_text }}</q> <span class="quote-bar__by">{{ b.quote_author }}</span></p>
+  {% set top_socials = [('facebook','Facebook'),('instagram','Instagram'),('tiktok','TikTok'),('youtube','YouTube')] %}
+  {% set top_active = [] %}{% for key, label in top_socials %}{% if site.social[key] %}{% set _ = top_active.append((key, label)) %}{% endif %}{% endfor %}
+  {% if top_active %}<span class="quote-bar__social">{% for key, label in top_active %}<a href="{{ site.social[key] }}" target="_blank" rel="noopener" aria-label="{{ b.name }} on {{ label }} (opens in a new tab)">{% include "partials/icons/" ~ key ~ ".svg" %}</a>{% endfor %}</span>{% endif %}
 </div>
 <header class="site-header">
   <div class="site-header__inner">

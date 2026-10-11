@@ -365,3 +365,10 @@ body > .skiptranslate { display: none !important; }
 /* plain title band for pages without a hero (legal pages) */
 .title-band { background: var(--navy); padding: clamp(40px, 6vw, 72px) 0 clamp(32px, 5vw, 56px); }
 .title-band h1 { color: var(--white); margin: 0; }
+
+/* Oct 10 2026: social icons in the top bar (right side on wide screens, under the quote on phones) */
+.quote-bar__social { display: flex; justify-content: center; gap: 6px; margin-top: 4px; }
+.quote-bar__social a { display: inline-flex; width: 28px; height: 28px; align-items: center; justify-content: center; color: inherit; border-radius: 50%; }
+.quote-bar__social a:hover { color: #ffffff; }
+.quote-bar__social svg { width: 17px; height: 17px; }
+@media (min-width: 1100px) { .quote-bar__social { position: absolute; right: var(--gutter); top: 50%; transform: translateY(-50%); margin-top: 0; } }
