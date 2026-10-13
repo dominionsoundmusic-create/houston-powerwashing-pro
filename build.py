@@ -90,7 +90,7 @@ class Builder:
             trim_blocks=True,
             lstrip_blocks=True,
         )
-        self.env.globals.update(
+        self.env.globals.update(webp_srcset=lambda f: webp_srcset(f),
             site=self.site,
             img=self.img,
             image_exists=lambda f: bool(f) and (IMAGES / f).exists(),
@@ -321,7 +321,9 @@ class Builder:
             html_out = self.render(page, index)
             dest = out_path_for(page["url"], self.out)
             dest.parent.mkdir(parents=True, exist_ok=True)
-            dest.write_text(html_out)
+            dest.write_text(add_pictures(html_out))
+        if WEBP_DIR.exists():
+            shutil.copytree(WEBP_DIR, self.out / "images" / "w", dirs_exist_ok=True)
         self.write_sitemap(pages)
         self.write_robots()
         if self.write_docs:
@@ -379,6 +381,53 @@ class Builder:
                 "",
             ]
         (ROOT / "docs" / "image-list.md").write_text("\n".join(out))
+
+
+# ---- speed fix (Oct 12 2026, same as the Orlando build): every photo also ships as small WebP
+# copies, offered through <picture> + srcset so a phone downloads only the size it needs.
+WEBP_WIDTHS = (480, 800, 1200, 1600, 1920)
+WEBP_DIR = STATIC / "images" / "w"
+_webp_cache = {}
+
+def webp_srcset(file):
+    from PIL import Image
+    if not file or file in _webp_cache:
+        return _webp_cache.get(file, "")
+    src = STATIC / "images" / file
+    if not src.exists() or src.suffix.lower() not in (".jpg", ".jpeg", ".png"):
+        _webp_cache[file] = ""
+        return ""
+    WEBP_DIR.mkdir(parents=True, exist_ok=True)
+    with Image.open(src) as im:
+        full_w, full_h = im.size
+        widths = sorted({w for w in WEBP_WIDTHS if w < full_w} | {full_w})
+        parts = []
+        for w in widths:
+            name = f"{src.stem}-{w}.webp"
+            dest = WEBP_DIR / name
+            if not dest.exists() or dest.stat().st_mtime < src.stat().st_mtime:
+                h = round(full_h * w / full_w)
+                im.convert("RGB").resize((w, h), Image.LANCZOS).save(dest, "WEBP", quality=66, method=6)
+            parts.append(f"/images/w/{name} {w}w")
+    _webp_cache[file] = ", ".join(parts)
+    return _webp_cache[file]
+
+_IMG_RE = re.compile(r'<img\b([^>]*?)\bsrc="/images/([^"/]+\.(?:jpe?g|png))"([^>]*)>', re.I)
+
+def add_pictures(html):
+    def swap(m):
+        tag = m.group(0)
+        srcset = webp_srcset(m.group(2))
+        if not srcset:
+            return tag
+        if 'hero__img' in tag:
+            sizes = "100vw"
+        elif 'card' in m.group(1) + m.group(3) or 'loading="lazy"' in tag and 'width="1200" height="675"' in tag:
+            sizes = "(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw"
+        else:
+            sizes = "(max-width: 860px) 100vw, 60vw"
+        return f'<picture><source type="image/webp" srcset="{srcset}" sizes="{sizes}">{tag}</picture>'
+    return _IMG_RE.sub(swap, html)
 
 
 def main():
