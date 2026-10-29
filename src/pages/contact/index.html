@@ -1,0 +1,108 @@
+---
+type: contact
+title: "Contact | Call (832) 662-4107 or Send a Request | Houston"
+description: "Call (832) 662-4107 any hour, or send a short request form. Either way you reach a local pressure washing company in the Houston area. Free to use."
+h1: "Call the Free Line or Send a Request"
+crumb: "Contact"
+hero:
+  image: contact-houston-home-front-walk.jpg
+  alt: "Brick two-story Houston-area home with a clean driveway on a sunny day"
+  desc: "Bright, welcoming daytime photo looking up a clean concrete front walk to the covered entry of a brick two-story home in a Houston suburb, with potted plants by the door, green shrubs and lawn on both sides and a blue sky. Realistic photo, no people, no text, no logos, no house numbers."
+  fallback: pw-hero.jpg
+  fallback_alt: "Clean concrete driveway beside a mowed lawn and a brick house"
+  size: short
+  lead: "Call any hour and an automated assistant puts you through to a local pressure washing company. Or send the short form below and a local company calls you back."
+  secondary_href: "#request"
+  secondary_label: "Send a request"
+cta: false
+form_id: contact
+faqs:
+  - q: "What if nobody picks up when I am transferred?"
+    a: "<p>If the local company is out on a job, the assistant takes your name, number and what you need and passes it along so the company can call you back. Houston Power Washing Pro does not set or promise a call-back time.</p>"
+  - q: "Is there an email address or office I can visit?"
+    a: "<p>No. Houston Power Washing Pro is a phone line and website without a public office or email address. Call the number any hour, or send the request form on this page and a local company calls you back.</p>"
+  - q: "What happens after I send the form?"
+    a: "<p>Your request is passed to an independent local pressure washing company, which calls you back at the number you gave. Houston Power Washing Pro does not set or promise a call-back time, so if the job is urgent, call (832) 662-4107 instead.</p>"
+  - q: "Can I send photos?"
+    a: "<p>Not to the line itself, but the company you are connected with may ask you to text some. Photos of the problem areas help it understand the job.</p>"
+  - q: "Does calling or sending the form commit me to anything?"
+    a: "<p>No. A call or a request only puts you in touch with a local company. You decide whether to accept its price.</p>"
+---
+{% block content %}
+{% set f = site.form %}
+<section class="band">
+  <div class="col contact-grid">
+    <div>
+      <h2 style="margin-top:0">Call the free line</h2>
+      <p>The phone is the fastest way to reach a local company.</p>
+      <p><a class="btn btn--amber btn--big" href="tel:{{ site.business.phone_tel }}">Call (832) 662-4107</a></p>
+      <ul class="facts">
+        <li><strong>Hours</strong>Answered 24 hours a day, 7 days a week by an automated assistant.</li>
+        <li><strong>Online</strong>Send the request form any time and a local company calls you back.</li>
+        <li><strong>Cost</strong>Free. You only ever pay the company you hire.</li>
+        <li><strong>Area</strong>Houston and surrounding communities. See <a href="/service-areas/">service areas</a>.</li>
+      </ul>
+    </div>
+    <form id="request" class="form form--boxed" name="{{ f.name }}" method="POST" action="{{ f.action }}" data-netlify="true" netlify-honeypot="{{ f.honeypot }}">
+      <input type="hidden" name="form-name" value="{{ f.name }}">
+      <p hidden><label>Leave blank <input name="{{ f.honeypot }}"></label></p>
+      <h2 class="form__title">Send a cleaning request</h2>
+      <p class="form__intro">A few details and an independent local pressure washing company calls you back.</p>
+      <div class="form__row">
+        <label for="f-name">Your name</label>
+        <input id="f-name" type="text" name="name" autocomplete="name" required>
+      </div>
+      <div class="form__row form__row--half">
+        <div>
+          <label for="f-phone">Phone</label>
+          <input id="f-phone" type="tel" name="phone" autocomplete="tel" required>
+        </div>
+        <div>
+          <label for="f-email">Email <span class="opt">(optional)</span></label>
+          <input id="f-email" type="email" name="email" autocomplete="email">
+        </div>
+      </div>
+      <div class="form__row">
+        <label for="f-city">City or ZIP code</label>
+        <input id="f-city" type="text" name="city" autocomplete="address-level2" required>
+      </div>
+      <div class="form__row">
+        <label for="f-need">What do you need?</label>
+        <select id="f-need" name="need" required>
+          <option value="">Choose one</option>
+{% for n in f.needs %}
+          <option>{{ n }}</option>
+{% endfor %}
+        </select>
+      </div>
+      <div class="form__row">
+        <label for="f-message">Anything else the company should know? <span class="opt">(optional)</span></label>
+        <textarea id="f-message" name="message" rows="4"></textarea>
+      </div>
+      <button class="btn btn--amber btn--big btn--block" type="submit">Send my request</button>
+      <p class="form__legal">Your details go only to the independent local company that will call you back. They are not sold. See the <a href="/privacy-policy/">privacy policy</a>.</p>
+    </form>
+  </div>
+  <div class="col">
+      <h3>What happens when you call</h3>
+      <ol class="steps">
+        <li><strong>Choose pressure washing.</strong> The number also handles roofing and air conditioning, so the assistant asks which you need.</li>
+        <li><strong>Describe the job.</strong> What needs cleaning, roughly how big, and where.</li>
+        <li><strong>Get put through.</strong> An independent local pressure washing company picks up, already knowing the basics. If it is out on a job, it calls you back.</li>
+      </ol>
+      <p class="small">{{ site.business.short_disclosure }} {{ site.business.referral_disclosure }}</p>
+  </div>
+</section>
+
+<section class="prose" style="padding-top:0">
+  <h2>Tips before you call or send a request</h2>
+  <ul class="checks">
+    <li>List every surface you want done: the company can plan one visit instead of two.</li>
+    <li>Give a rough size, like "two-car driveway" or "two-story house."</li>
+    <li>Mention any deadline, such as an HOA letter date or a closing.</li>
+    <li>Note anything delicate: fresh paint, new landscaping, a koi pond, an outdoor kitchen.</li>
+  </ul>
+  {{ img('pw-01-card.jpg', 'Worker pressure washing a concrete driveway in front of brick houses', 1200, 675) }}
+  {{ img('contact-request-driveway-and-house.jpg', 'Houston-area brick home with a long concrete driveway under shade trees', 1200, 800, desc='Bright daytime photo of the front of a two-story Houston-area home with brick and light siding, showing a concrete driveway with some dark mildew near the lawn edge and light green growth on the lower siding by the shrubs, the typical before state of a cleaning request. Blue sky, sunny. Realistic photo, no people, no text, no logos, no house numbers.') }}
+</section>
+{% endblock %}

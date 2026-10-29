@@ -345,7 +345,7 @@ class Builder:
     def write_robots(self):
         origin = self.site["business"]["origin"]
         (self.out / "robots.txt").write_text(
-            "User-agent: *\nAllow: /\nDisallow: /thank-you/\n\n"
+            "User-agent: *\nAllow: /\nDisallow: /thank-you/\nDisallow: /contact/thanks/\n\n"
             f"Sitemap: {origin}/sitemap.xml\n"
         )
 

@@ -332,6 +332,14 @@ tbody th { color: var(--navy); background: var(--tint); }
 .form textarea { resize: vertical; }
 .form__legal { font-size: .82rem; color: var(--muted); margin: 12px 0 0; }
 .form__legal a { color: var(--water-ink) !important; }
+/* Contact page request form (Oct 29 2026): boxed in navy, dark 2px field borders, bold labels */
+.contact-grid { display: grid; grid-template-columns: 1fr minmax(0, 560px); gap: clamp(28px, 5vw, 64px); align-items: start; margin-bottom: 36px; }
+@media (max-width: 900px) { .contact-grid { grid-template-columns: 1fr; } }
+.form--boxed { border: 3px solid var(--navy); box-shadow: var(--shadow); min-width: 0; scroll-margin-top: calc(var(--header-h) + 16px); }
+.prose .form--boxed, .band .form--boxed { border: 3px solid var(--navy); }
+.form--boxed label { font-weight: 700; font-size: 1rem; color: var(--navy); }
+.form--boxed input, .form--boxed select, .form--boxed textarea { border: 2px solid var(--navy); min-height: 50px; font-size: 1.05rem; }
+.form--boxed .form__intro, .form--boxed .form__legal { color: var(--ink); }
 .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 
 /* ---------- footer ---------- */

@@ -213,7 +213,7 @@ def main():
         if visible_faq != faq_count:
             err(f"visible FAQ items ({visible_faq}) != FAQPage entries ({faq_count})")
         max_faq = 20 if url == "/faq/" else 6
-        if url not in ("/404.html", "/thank-you/", "/privacy-policy/", "/terms-of-use/") and not (3 <= visible_faq <= max_faq):
+        if url not in ("/404.html", "/thank-you/", "/contact/thanks/", "/privacy-policy/", "/terms-of-use/") and not (3 <= visible_faq <= max_faq):
             err(f"page needs 3 to 6 common questions, has {visible_faq}")
         # headings order
         last = 1

@@ -1,0 +1,28 @@
+---
+type: page
+noindex: true
+title: "Request Received | Houston Power Washing Pro"
+description: "Your cleaning request was received. An independent local pressure washing company should call you back. For anything urgent, call (832) 662-4107 any hour."
+h1: "Your Request Was Received"
+crumb: "Request received"
+hero:
+  image: pw-hero.jpg
+  alt: "Clean concrete driveway beside a mowed lawn and a brick house"
+  size: short
+  lead: "Thank you. Your details are on their way to an independent local pressure washing company, which should call you back at the number you gave."
+  secondary_href: "/services/"
+  secondary_label: "See all services"
+cta: false
+---
+{% block content %}
+<section class="prose">
+  <h2>What happens next</h2>
+  <ul class="checks">
+    <li>A local pressure washing company reviews your request and calls you back.</li>
+    <li>Keep your phone nearby. The call may come from a number you do not recognize.</li>
+    <li>The company looks at the job, gives you its own price, and is paid by you directly if you hire it.</li>
+  </ul>
+  <p>Need to talk to someone sooner? Call the free line at <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a>. It is answered 24 hours a day, 7 days a week.</p>
+  <p class="small">{{ site.business.short_disclosure }} {{ site.business.referral_disclosure }}</p>
+</section>
+{% endblock %}

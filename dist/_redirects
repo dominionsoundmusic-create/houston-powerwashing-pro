@@ -69,9 +69,7 @@
 /terms                                     /terms-of-use/                          301
 /terms.html                                /terms-of-use/                          301
 /privacy-policy.html                       /privacy-policy/                        301
-/contact/thanks                            /contact/                               301
-/contact/thanks/                           /contact/                               301
-/contact/thanks/index.html                 /contact/                               301
+# /contact/thanks/ is now a real page (the request form's thank-you page, Oct 29 2026), so it is no longer redirected.
 
 # Retired keyword folders (Sep 2026). The homepage now targets "power washing Houston".
 /power-washing                             /                                       301

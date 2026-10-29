@@ -36,16 +36,17 @@
   },
   "form": {
     "name": "houston-powerwashing-contact",
-    "action": "/thank-you/",
+    "action": "/contact/thanks/",
     "honeypot": "bot-field",
     "needs": [
       "Driveway or walks",
       "House or siding",
-      "Roof",
-      "Fence",
-      "Deck or patio",
+      "Roof cleaning",
+      "Fence or deck",
+      "Patio or pool deck",
+      "Business or commercial",
       "Several of these",
-      "Business or commercial"
+      "Just a question"
     ]
   },
   "social": {
